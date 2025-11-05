@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function UserInfo({ onSubmit }) {
+const UserInfo = ({ onSubmit }) => {
   const [formData, setFormData] = useState({
     discordUsername: '',
     discordUID: ''

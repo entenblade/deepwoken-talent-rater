@@ -1,8 +1,7 @@
 import React from 'react'
 
-function Results({ ratedCount, onRateMore }) {
+const Results = ({ ratedCount, onRateMore }) => {
   const handleExport = () => {
-    // Export data from localStorage
     const ratings = JSON.parse(localStorage.getItem('talentRatings') || '[]')
     const dataStr = JSON.stringify(ratings, null, 2)
     const dataBlob = new Blob([dataStr], { type: 'application/json' })

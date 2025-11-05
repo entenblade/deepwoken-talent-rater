@@ -1,0 +1,4058 @@
+[
+  {
+    "talent_name": "Neural Overload",
+    "category": "Adept Caster",
+    "requirements": "Intelligence: 85",
+    "description": "You can input up to 4 copies of each Mantra ingredient instead of being limited to 3."
+  },
+  {
+    "talent_name": "Conditioned Runner",
+    "category": "Alley Cat",
+    "requirements": "Agility: 25",
+    "description": "You regenerate health faster than normal when sprinting below 75% HP. The health amount scales with your agility stat."
+  },
+  {
+    "talent_name": "Collapsed Lung",
+    "category": "Annihilator",
+    "requirements": "Strength: 100",
+    "description": "Block breaking an opponent closes off their ability to Vent for 8s, with this duration scaling with Strength."
+  },
+  {
+    "talent_name": "Reinforced Armor",
+    "category": "Bastion",
+    "requirements": "Fortitude: 90",
+    "description": "Incoming PEN is reduced by 30%.\n[Note: Scales with investment. Having less Fortitude reduces the effect of this Talent, with a minimum of 10%.]"
+  },
+  {
+    "talent_name": "Ghost",
+    "category": "Butterfly",
+    "requirements": "Agility: 40",
+    "description": "Dodging a move will briefly make you invisible, ending early if you attack.\n[*Note: 0.8s to 1.2s duration between 10 and 40 Agility.]"
+  },
+  {
+    "talent_name": "Dazing Finisher",
+    "category": "Charm Caster",
+    "requirements": "Charisma: 55",
+    "description": "Flourishing enemies that are charmed by you causes them to not be knocked back and be dazed instead.\n[*This talent loses some effect below its investment cost.]"
+  },
+  {
+    "talent_name": "Thank You",
+    "category": "Credits",
+    "requirements": "Power: 1 | Strength: 1 | Fortitude: 1 | Agility: 1 | Intelligence: 1 | Willpower: 1 | Charisma: 1 | Heavy Wep.: 1 | Medium Wep.: 1 | Light Wep.: 1 | Flamecharm: 1 | Frostdraw: 1 | Thundercall: 1 | Galebreathe: 1 | Shadowcast: 1 | Ironsing: 1 | Bloodrend: 1",
+    "description": "Thanks for using Deepwoken Builder!  This project takes an awful lot of time and effort, so please don't forget to support Cyfer if you can."
+  },
+  {
+    "talent_name": "Ether Overdrive [FLM]",
+    "category": "Songmaster",
+    "requirements": "Intelligence: 90 | Flamecharm: 20",
+    "description": "Gain additional PEN and remove the cap on your PEN. Go beyond your limits.\n[*The amount of additional PEN received scales with your Intelligence.]"
+  },
+  {
+    "talent_name": "Ether Overdrive [ICE]",
+    "category": "Songmaster",
+    "requirements": "Intelligence: 90 | Frostdraw: 20",
+    "description": "Gain additional PEN and remove the cap on your PEN. Go beyond your limits.\n[*The amount of additional PEN received scales with your Intelligence.]"
+  },
+  {
+    "talent_name": "Ether Overdrive [LTN]",
+    "category": "Songmaster",
+    "requirements": "Intelligence: 90 | Thundercall: 20",
+    "description": "Gain additional PEN and remove the cap on your PEN. Go beyond your limits.\n[*The amount of additional PEN received scales with your Intelligence.]"
+  },
+  {
+    "talent_name": "Ether Overdrive [WND]",
+    "category": "Songmaster",
+    "requirements": "Intelligence: 90 | Galebreathe: 20",
+    "description": "Gain additional PEN and remove the cap on your PEN. Go beyond your limits.\n[*The amount of additional PEN received scales with your Intelligence.]"
+  },
+  {
+    "talent_name": "Ether Overdrive [SDW]",
+    "category": "Songmaster",
+    "requirements": "Intelligence: 90 | Shadowcast: 20",
+    "description": "Gain additional PEN and remove the cap on your PEN. Go beyond your limits.\n[*The amount of additional PEN received scales with your Intelligence.]"
+  },
+  {
+    "talent_name": "Ether Overdrive [MTL]",
+    "category": "Songmaster",
+    "requirements": "Intelligence: 90 | Ironsing: 20",
+    "description": "Gain additional PEN and remove the cap on your PEN. Go beyond your limits.\n[*The amount of additional PEN received scales with your Intelligence.]"
+  },
+  {
+    "talent_name": "Ether Overdrive [BLD]",
+    "category": "Songmaster",
+    "requirements": "Intelligence: 90 | Bloodrend: 20",
+    "description": "Gain additional PEN and remove the cap on your PEN. Go beyond your limits.\n[*The amount of additional PEN received scales with your Intelligence.]"
+  },
+  {
+    "talent_name": "Prime Ether Bullets",
+    "category": "Gunslinger",
+    "requirements": "Intelligence: 60 | Light Wep.: 90",
+    "description": "Your bullets take one less hit to proc elemental effects and now have slight intelligence scaling."
+  },
+  {
+    "talent_name": "All Above, Gods Below",
+    "category": "Heretic",
+    "requirements": "Intelligence: 100 | Willpower: 100",
+    "description": "Any healing your opponent were to receive while All the Dead Gods is active on them is stolen and given to you."
+  },
+  {
+    "talent_name": "Brick Wall",
+    "category": "Human Architecture",
+    "requirements": "Fortitude: 100 | Willpower: 100",
+    "description": "You refuse. You cannot be knocked off your feet until you are knocked completely unconscious. You are also now knocked down for less time.\n[*Note: Knockdown reduction scales with your Fortitude and Willpower.]"
+  },
+  {
+    "talent_name": "Not A Scratch",
+    "category": "Human Architecture",
+    "requirements": "Fortitude: 20 | Willpower: 100",
+    "description": "You don't show any signs of damage."
+  },
+  {
+    "talent_name": "Unyielding Frost",
+    "category": "Ice Age",
+    "requirements": "Frostdraw: 100",
+    "description": "Your Chill can proc through block, with blocked Chilling proc lasting 80% of the duration."
+  },
+  {
+    "talent_name": "Phoenix Flames",
+    "category": "Immolator",
+    "requirements": "",
+    "description": "Any time you would burn to death, you instead rise again with up to 50% of your health restored. Has a 60 second cooldown.\n[*The health returned with this talent scales on your Flamecharm investment, starting at 25%.]"
+  },
+  {
+    "talent_name": "Alloyblood",
+    "category": "Ironsinger",
+    "requirements": "Ironsing: 100",
+    "description": "You  don't bleed like others do. Bleed damage is reduced by 30%. Blood loss is reduced by 75%.\n[Note: Scales with investment. Having less Ironsing reduces the effect of this Talent.]"
+  },
+  {
+    "talent_name": "The Floor is Lava",
+    "category": "Lava Serpent",
+    "requirements": "Flamecharm: 100",
+    "description": "Your eruptions leave pools of lava beneath them. Don't fall in.\n[*The duration of your pools of lava scales on your Flamecharm investment.]"
+  },
+  {
+    "talent_name": "Volcanic Glass",
+    "category": "Pyroclast",
+    "requirements": "",
+    "description": "Detonating crystals causes an eruption soon after."
+  },
+  {
+    "talent_name": "Piercing Blow",
+    "category": "Raging Bull",
+    "requirements": "Strength: 100",
+    "description": "Attacks that break an opponent's block ignore their Armor resistances."
+  },
+  {
+    "talent_name": "Million Ton Piercer",
+    "category": "Rampaging Brute",
+    "requirements": "Strength: 90",
+    "description": "Gain additional PEN and remove the cap on your PEN. Go beyond your limits.\n[*The amount of additional PEN received scales with your Strength.]"
+  },
+  {
+    "talent_name": "Will o' Wisp [FLM]",
+    "category": "Sage of Wisps",
+    "requirements": "Flamecharm: 25",
+    "description": "Your mastery over the Wisps of the Song enables you to mediate the innate conflicts between your Wisps, allowing any number of Wisps to be active at a time."
+  },
+  {
+    "talent_name": "Will o' Wisp [ICE]",
+    "category": "Sage of Wisps",
+    "requirements": "Frostdraw: 25",
+    "description": "Your mastery over the Wisps of the Song enables you to mediate the innate conflicts between your Wisps, allowing any number of Wisps to be active at a time."
+  },
+  {
+    "talent_name": "Will o' Wisp [LTN]",
+    "category": "Sage of Wisps",
+    "requirements": "Thundercall: 25",
+    "description": "Your mastery over the Wisps of the Song enables you to mediate the innate conflicts between your Wisps, allowing any number of Wisps to be active at a time."
+  },
+  {
+    "talent_name": "Will o' Wisp [WND]",
+    "category": "Sage of Wisps",
+    "requirements": "Galebreathe: 25",
+    "description": "Your mastery over the Wisps of the Song enables you to mediate the innate conflicts between your Wisps, allowing any number of Wisps to be active at a time."
+  },
+  {
+    "talent_name": "Will o' Wisp [SDW]",
+    "category": "Sage of Wisps",
+    "requirements": "Shadowcast: 25",
+    "description": "Your mastery over the Wisps of the Song enables you to mediate the innate conflicts between your Wisps, allowing any number of Wisps to be active at a time."
+  },
+  {
+    "talent_name": "Will o' Wisp [MTL]",
+    "category": "Sage of Wisps",
+    "requirements": "Ironsing: 25",
+    "description": "Your mastery over the Wisps of the Song enables you to mediate the innate conflicts between your Wisps, allowing any number of Wisps to be active at a time."
+  },
+  {
+    "talent_name": "Will o' Wisp [BLD]",
+    "category": "Sage of Wisps",
+    "requirements": "Bloodrend: 25",
+    "description": "Your mastery over the Wisps of the Song enables you to mediate the innate conflicts between your Wisps, allowing any number of Wisps to be active at a time."
+  },
+  {
+    "talent_name": "Reshape and Remold",
+    "category": "Scrapsinger",
+    "requirements": "Ironsing: 70",
+    "description": "Successful procs of Scrapsinger will increase the amount of armor damage your opponent takes. After hitting 10 stacks, the opponent will take +5% damage until the stacks drop below 10.\n[*This talent loses some effectiveness when below its requirements.]"
+  },
+  {
+    "talent_name": "Gruesome Harvest",
+    "category": "Septicemia",
+    "requirements": "Bloodrend: 85",
+    "description": "Landing Bloodrend mantras on opponents with over 70% blood poison will give you slight temporary health."
+  },
+  {
+    "talent_name": "A World Without Song",
+    "category": "Silencer",
+    "requirements": "Power: 10 | Galebreathe: 75",
+    "description": "Every 3-4 hits with a Wind Mantra now procs Suffocate.\n[*Note: Takes 4 hits if between 40 and 74 Galebreathe.]"
+  },
+  {
+    "talent_name": "Absolute Pitch",
+    "category": "Songmaster",
+    "requirements": "Intelligence: 100",
+    "description": "You can cast Ritual Mantras instantly."
+  },
+  {
+    "talent_name": "Possession",
+    "category": "Specter",
+    "requirements": "Galebreathe: 75",
+    "description": "After an apparition hits an enemy, receive 15% posture damage on all Galebreath attacks for 6 seconds. If the apparition hits while you have Phantom Step activated, receive a 15% chip damage buff as well for the same duration.\n[*This talent loses some effectiveness when below its requirements.]"
+  },
+  {
+    "talent_name": "Dustlunge",
+    "category": "Swiftshade",
+    "requirements": "Agility: 90",
+    "description": "You can now assassinate enemies from much farther range, shadestepping to their location if they're too far. You automatically assassinate other nearby enemies.\n[*This talent loses some effectiveness when below its requirements.]"
+  },
+  {
+    "talent_name": "Another Man's Trash",
+    "category": "Thief",
+    "requirements": "Agility: 10 | Charisma: 35",
+    "description": "Take unequipped equipment when mugging a player."
+  },
+  {
+    "talent_name": "Crippling Comeuppance",
+    "category": "Trickster",
+    "requirements": "Agility: 100",
+    "description": "Landing Revenge puts your opponent's Mobility slot Mantras on CD for 15s.\n[*Note: 10s to 15s CD between 50 and 100 Agility.]"
+  },
+  {
+    "talent_name": "Audacity",
+    "category": "Tyrant",
+    "requirements": "Strength: 50 | Charisma: 100",
+    "description": "Once you've brought down your prey, instill fear into all those who would seperate you from claiming it. Charmed or nearby enemies will fear for longer. Nearby allies gain a 10% damage buff.\n[*Note: CD scales from 30s to 40s with your Charisma and Strength stats, between 50 and 150.]"
+  },
+  {
+    "talent_name": "Command: Summon",
+    "category": "Vow of Mastery",
+    "requirements": "Charisma: 80",
+    "description": "Command your servant to obey your master and appear before you no matter the distance."
+  },
+  {
+    "talent_name": "Switchblade [HVY]",
+    "category": "Weapon Master",
+    "requirements": "Heavy Wep.: 50 | Light Wep.: 50",
+    "description": "You can now utilise Dagger talents when not wielding a dagger."
+  },
+  {
+    "talent_name": "Switchblade [MED]",
+    "category": "Weapon Master",
+    "requirements": "Medium Wep.: 50 | Light Wep.: 50",
+    "description": "You can now utilise Dagger talents when not wielding a dagger."
+  },
+  {
+    "talent_name": "Chorus of Souls",
+    "category": "Sage of Wisps",
+    "requirements": "Flamecharm: 30 | Frostdraw: 30 | Thundercall: 30 | Galebreathe: 30 | Shadowcast: 30 | Ironsing: 30 | Bloodrend: 30",
+    "description": "Alone, the Wisps lack a voice. But surrounded by so many, the frequencies overlap and you hear it true."
+  },
+  {
+    "talent_name": "An Ironsinger's Instinct",
+    "category": "Adaptive Arsenal",
+    "requirements": "Ironsing: 75",
+    "description": "Successfully dodging an attack coats you in metal and reduces the damage of the next attack damage taken. 18s CD."
+  },
+  {
+    "talent_name": "Phantom Edge",
+    "category": "Adaptive Arsenal",
+    "requirements": "Ironsing: 75",
+    "description": "Your weapon Basic Attacks have +0.25 range."
+  },
+  {
+    "talent_name": "Everchanging Aegis",
+    "category": "Adept Caster",
+    "requirements": "Intelligence: 25",
+    "description": "You take 20% less damage from attacks the same element as the last element you were hit with, but 10% more damage from attacks from different elements."
+  },
+  {
+    "talent_name": "Overflowing Dam",
+    "category": "Adept Caster",
+    "requirements": "Intelligence: 40",
+    "description": "Having full Ether for 2 seconds or more grants an aura to your attacks that grants them 5%-10% more damage.\n[*The percentage of gained damage scales with your Intelligence between 0 INT and 40 INT.]"
+  },
+  {
+    "talent_name": "Perfect Flash",
+    "category": "Adept Caster",
+    "requirements": "Intelligence: 25",
+    "description": "Having over 95% health causes your mantras to do +25% more damage. This damage bonus will scale down to 10% if your enemies are far away."
+  },
+  {
+    "talent_name": "Wyvern's Claw [HVY]",
+    "category": "Aerial Dancer",
+    "requirements": "Strength: 15 | Heavy Wep.: 25",
+    "description": "You deal 10% more damage while airborne. Mantras receive a 5% bonus to damage instead."
+  },
+  {
+    "talent_name": "Wyvern's Claw [LHT]",
+    "category": "Aerial Dancer",
+    "requirements": "Strength: 15 | Light Wep.: 25",
+    "description": "You deal 10% more damage while airborne. Mantras receive a 5% bonus to damage instead."
+  },
+  {
+    "talent_name": "Wyvern's Claw [MED]",
+    "category": "Aerial Dancer",
+    "requirements": "Strength: 15 | Medium Wep.: 25",
+    "description": "You deal 10% more damage while airborne. Mantras receive a 5% bonus to damage instead."
+  },
+  {
+    "talent_name": "Aerogliding",
+    "category": "Aeromancer",
+    "requirements": "Agility: 30 | Galebreathe: 35",
+    "description": "When falling from a high place, hold spacebar to generate wind currents until you hit the floor. Also gives you more airtime with Gliders."
+  },
+  {
+    "talent_name": "Stifled Jump",
+    "category": "Aeromancer",
+    "requirements": "Strength: 15 | Galebreathe: 35",
+    "description": "Enemies who jump while suffocated by you are dazed."
+  },
+  {
+    "talent_name": "Placebo Effect",
+    "category": "Alchemist",
+    "requirements": "Intelligence: 60",
+    "description": "Drinking potions near allies will share the potion's effect with them."
+  },
+  {
+    "talent_name": "Potion Quaffer [FTD]",
+    "category": "Alchemist",
+    "requirements": "Fortitude: 15 | Intelligence: 30",
+    "description": "You're accustomed to drinking toxic fluids quickly. You'll get along famously with the other patrons at the tavern. Drinking potions slows you down less and grants superior regenerative effects to you."
+  },
+  {
+    "talent_name": "Potion Quaffer [WIL]",
+    "category": "Alchemist",
+    "requirements": "Intelligence: 30 | Willpower: 15",
+    "description": "You're accustomed to drinking toxic fluids quickly. You'll get along famously with the other patrons at the tavern. Drinking potions slows you down less and grants superior regenerative effects to you."
+  },
+  {
+    "talent_name": "Carnivore",
+    "category": "Apex Predator",
+    "requirements": "Strength: 5 | Willpower: 5",
+    "description": "In return for losing the ability to eat vegetation, sate your hunger by gripping monsters and people alike."
+  },
+  {
+    "talent_name": "Smell of Blood",
+    "category": "Bloodhound",
+    "requirements": "Bloodrend: 65",
+    "description": "When people touch a blood pool, briefly see their blood and blood poison.\n[*Note: This Talent does proc on guardbreaks.]"
+  },
+  {
+    "talent_name": "Hemorrhaging Blow",
+    "category": "Bloodrender",
+    "requirements": "Bloodrend: 95",
+    "description": "Block breaking your opponent with a blood mantra turns your opponent's combat healing into damage for 8 seconds (55 second CD)"
+  },
+  {
+    "talent_name": "Rush Hour",
+    "category": "Bloodrender",
+    "requirements": "Bloodrend: 50",
+    "description": "Stab yourself to become stronger, faster, and deal increased blood bar damage."
+  },
+  {
+    "talent_name": "Heavy Fatigue",
+    "category": "Bruiser",
+    "requirements": "Heavy Wep.: 40",
+    "description": "[Greataxe] Hitting an enemy slowed by your Greataxe temporarily reduces how far they can roll."
+  },
+  {
+    "talent_name": "Rending Impact",
+    "category": "Bruiser",
+    "requirements": "Heavy Wep.: 40",
+    "description": "[Greataxe] Block breaking an enemy applies an extended knockdown."
+  },
+  {
+    "talent_name": "Evasive Expert",
+    "category": "Butterfly",
+    "requirements": "Agility: 15",
+    "description": "Your speed boost granted from dodging is increased."
+  },
+  {
+    "talent_name": "Risky Moves",
+    "category": "Butterfly",
+    "requirements": "Agility: 25",
+    "description": "When you successfully dodge, you'll automatically dodge the next attack."
+  },
+  {
+    "talent_name": "Champion's Regalia",
+    "category": "Champion",
+    "requirements": "Strength: 25",
+    "description": "Flourishing an opponent grants you 1.5x posture damage for 10 seconds."
+  },
+  {
+    "talent_name": "Defiance",
+    "category": "Champion",
+    "requirements": "Willpower: 70",
+    "description": "Negative status effects are half as effective when you are below 35% HP."
+  },
+  {
+    "talent_name": "Destructive Recovery",
+    "category": "Colossus",
+    "requirements": "Strength: 25 | Heavy Wep.: 40",
+    "description": "[Greatsword] Enemies recover 20% less Posture when parrying."
+  },
+  {
+    "talent_name": "Unstoppable Force",
+    "category": "Colossus",
+    "requirements": "Strength: 25 | Heavy Wep.: 40",
+    "description": "[Greathammer] You take 15% less posture damage when parried."
+  },
+  {
+    "talent_name": "Grand Support",
+    "category": "Comrade",
+    "requirements": "Fortitude: 40",
+    "description": "Everyone you buff with Reinforce is healed lightly. You're healed slightly if you heal others."
+  },
+  {
+    "talent_name": "Lord's Tithe",
+    "category": "Comrade",
+    "requirements": "Fortitude: 40 | Shadowcast: 40",
+    "description": "Everyone you Reinforce is drained of their Ether while Reinforced. Drain scales with your Shadowcast."
+  },
+  {
+    "talent_name": "Knife's Journey",
+    "category": "Critical Specialist",
+    "requirements": "Light Wep.: 30",
+    "description": "Cancelling an enemy's Mantra windup with your basic attack now deals 15% more damage."
+  },
+  {
+    "talent_name": "Preceding Chill",
+    "category": "Cryoni",
+    "requirements": "Frostdraw: 60",
+    "description": "Enemies hit during the last moments of your ice beam are frozen."
+  },
+  {
+    "talent_name": "Dark Rift",
+    "category": "Darksiphon",
+    "requirements": "Shadowcast: 60",
+    "description": "Enter a rifted state when you sucessfully dodge, where you can't be damaged until its duration ends. Can be cancelled early if you attack."
+  },
+  {
+    "talent_name": "Concussion",
+    "category": "Duelist",
+    "requirements": "Strength: 20 | Fortitude: 15",
+    "description": "Enemies you flourish into walls have their vision altered for a short duration and are dazed longer than usual."
+  },
+  {
+    "talent_name": "Spine Cutter",
+    "category": "Duelist",
+    "requirements": "Strength: 20 | Agility: 25",
+    "description": "Hitting an enemy in the back after a roll cancel will initiate a second slash that deals your weapon's raw damage."
+  },
+  {
+    "talent_name": "Strong Stern",
+    "category": "Duelist",
+    "requirements": "Strength: 15 | Fortitude: 25",
+    "description": "The duration you are dazed from wall bangs is cut in half."
+  },
+  {
+    "talent_name": "Tap Dancer",
+    "category": "Duelist",
+    "requirements": "Agility: 60",
+    "description": "Rolling immediately after a roll-cancel no longer puts your roll on a longer cooldown."
+  },
+  {
+    "talent_name": "Eureka",
+    "category": "Ether Conduit",
+    "requirements": "Intelligence: 30",
+    "description": "Gain a stack of Inspiration every time you land or parry a Mantra. Whiffing a Mantra removes a stack of inspiration. Reaching 3 stacks grants +10% Mantra Damage to your next Mantra attack"
+  },
+  {
+    "talent_name": "Fishman",
+    "category": "Fish",
+    "requirements": "",
+    "description": "You can execute enemies in water. Gain additional healing from knocking others in water."
+  },
+  {
+    "talent_name": "Graceful Steps",
+    "category": "Flame Dancer",
+    "requirements": "Power: 13 | Flamecharm: 80",
+    "description": "Your dancing steps now gives a faster speed boost."
+  },
+  {
+    "talent_name": "The Final Act",
+    "category": "Flame Dancer",
+    "requirements": "Power: 13 | Flamecharm: 60",
+    "description": "Landing a fire mantra immediately after flourishing an opponent will cause them to explode."
+  },
+  {
+    "talent_name": "Warding Radiance",
+    "category": "Flame Warden",
+    "requirements": "Agility: 20 | Flamecharm: 30",
+    "description": "Every fire mantra builds up one halo stack. At 3 stacks a halo appears that allows you to slide further. Hell's Partisan is also triggered passively while this is active."
+  },
+  {
+    "talent_name": "Exoskeleton",
+    "category": "Freak of Nature",
+    "requirements": "Fortitude: 40",
+    "description": "You have a layer of fortified Natural Armor that replenishes when you rest. Your Natural Armor will resist 10% of Physical Damage while active.\n[*Note: +5%-+10% between 0 and 40 Fortitude.]"
+  },
+  {
+    "talent_name": "To The Finish",
+    "category": "Freak of Nature",
+    "requirements": "Fortitude: 50",
+    "description": "You take up to 10% less damage when below 30% health.\n[*Note: -5%-10% between 20 and 50 Fortitude.]"
+  },
+  {
+    "talent_name": "Frozen Legs",
+    "category": "Frozen Warrior",
+    "requirements": "Frostdraw: 60",
+    "description": "Your slow effect prevents opponents from rolling."
+  },
+  {
+    "talent_name": "Neuroplasticity",
+    "category": "Genius Intellect",
+    "requirements": "Mind: 35",
+    "description": "Your mind is a pliable, flexible substance. The Ether cost of additional modifications to your Mantra is now reduced by 20%."
+  },
+  {
+    "talent_name": "Armor Piercing [LHT]",
+    "category": "Gunslinger",
+    "requirements": "Light Wep.: 30",
+    "description": "[Guns] Your gun attacks now ignore 10% of an opponent's physical armor. Applied multiplicatively before PEN is applied."
+  },
+  {
+    "talent_name": "Armor Piercing [MED]",
+    "category": "Gunslinger",
+    "requirements": "Medium Wep.: 30",
+    "description": "[Guns] Your gun attacks now ignore 10% of an opponent's physical armor. Applied multiplicatively before PEN is applied."
+  },
+  {
+    "talent_name": "Hip Shooter [HVY]",
+    "category": "Gunslinger",
+    "requirements": "Heavy Wep.: 50 | Light Wep.: 25",
+    "description": "When wielded with a Medium/Heavy weapon, your side gun can now fire a bullet projectile. 5s CD"
+  },
+  {
+    "talent_name": "Hip Shooter [MED]",
+    "category": "Gunslinger",
+    "requirements": "Medium Wep.: 50 | Light Wep.: 25",
+    "description": "When wielded with a Medium/Heavy weapon, your side gun can now fire a bullet projectile. 5s CD"
+  },
+  {
+    "talent_name": "True Ether Bullets [LHT]",
+    "category": "Gunslinger",
+    "requirements": "Intelligence: 30 | Light Wep.: 20",
+    "description": "Using Ether Bullets applies elemental damage of your highest investment."
+  },
+  {
+    "talent_name": "True Ether Bullets [MED]",
+    "category": "Gunslinger",
+    "requirements": "Intelligence: 30 | Medium Wep.: 20",
+    "description": "Using Ether Bullets applies elemental damage of your highest investment."
+  },
+  {
+    "talent_name": "All the Dead Gods",
+    "category": "Heretic",
+    "requirements": "Intelligence: 40 | Willpower: 65",
+    "description": "Your Basic Attacks now apply anti-heal for 8s.\n[Note: Scales with investment. Having less Willpower reduces the effect of this Talent.]"
+  },
+  {
+    "talent_name": "Sin Stacker",
+    "category": "Heretic",
+    "requirements": "Willpower: 90",
+    "description": "Your All the Dead Gods' duration is now based on how many stacks of antiheal you already have on your opponent."
+  },
+  {
+    "talent_name": "Mythic Stability",
+    "category": "Human Architecture",
+    "requirements": "Fortitude: 85",
+    "description": "Players and regular mobs cannot instantly execute you while you're on your feet. Protects you from one instance of instant execution while knocked. 60s CD."
+  },
+  {
+    "talent_name": "Peripheral Vision",
+    "category": "Hunter",
+    "requirements": "Willpower: 40",
+    "description": "Your glare now ignores if your opponent is facing you."
+  },
+  {
+    "talent_name": "Frozen Pin-Cushion",
+    "category": "Ice Age",
+    "requirements": "Frostdraw: 60",
+    "description": "Hitting an opponent with your Ice Daggers causes them to freeze."
+  },
+  {
+    "talent_name": "Saint Jay",
+    "category": "Ice Age",
+    "requirements": "Frostdraw: 1",
+    "description": "When a Chilled enemy receives a heal, it's nullified and 60% of the healing is redirected to you. While this is active and they are on ice your rate of healing is increased."
+  },
+  {
+    "talent_name": "Grand Skewer",
+    "category": "Javelin Lord",
+    "requirements": "Thundercall: 60",
+    "description": "Press [F] during the windup of Grand Javelin to activate. Your Grand Javelin now carries opponents through the air."
+  },
+  {
+    "talent_name": "Observation",
+    "category": "Leaf in the Wind",
+    "requirements": "Agility: 20",
+    "description": "Dodge frames are larger if you cancel your roll immediately."
+  },
+  {
+    "talent_name": "Safety Dance",
+    "category": "Leaf in the Wind",
+    "requirements": "Agility: 20",
+    "description": "Your base dodge frames are increased by 0.05s."
+  },
+  {
+    "talent_name": "Thresher Claws",
+    "category": "Marauder",
+    "requirements": "Power: 13",
+    "description": "All of your attacks have +5% more PEN. Your Basic Attacks and critical attacks have an additional +5% PEN on top."
+  },
+  {
+    "talent_name": "Leg Shot",
+    "category": "Marksman",
+    "requirements": "Medium Wep.: 80",
+    "description": "[Rifles] Landing a critical slows your enemy for a bit, and disables any speed boosts they get for the next 10 seconds."
+  },
+  {
+    "talent_name": "Tactical Reload",
+    "category": "Marksman",
+    "requirements": "Medium Wep.: 95",
+    "description": "[Rifles] Activate to make your rifle shoot bullets for 15 seconds. (90 second CD)"
+  },
+  {
+    "talent_name": "Impervious Slumber",
+    "category": "Meditative Trance",
+    "requirements": "Fortitude: 35",
+    "description": "Getting hit while knocked no longer resets your time knocked."
+  },
+  {
+    "talent_name": "Lose Your Mind",
+    "category": "Mindbreaker",
+    "requirements": "Strength: 30 | Fortitude: 30",
+    "description": "Deal more damage the more insane you are. Grants 15% damage at maximum insanity.\n[Note: Will only proc below 70% sanity, and has diminishing returns.]"
+  },
+  {
+    "talent_name": "Piercing Will",
+    "category": "Mindbreaker",
+    "requirements": "Willpower: 80",
+    "description": "When your sanity is below 35%, gain up to +15% PEN on your attacks. Starting at 5% PEN, the lower your sanity, the higher your PEN."
+  },
+  {
+    "talent_name": "Fists of Fortitude",
+    "category": "Navaen Nomad",
+    "requirements": "Fortitude: 20 | Light Wep.: 20",
+    "description": "[Fists] Every 6 hits with your fist builds of a shield of endurance reducing incoming damage by 15%. 70s CD."
+  },
+  {
+    "talent_name": "Lightspeed Reflexes",
+    "category": "Nimble Blade",
+    "requirements": "Agility: 20 | Intelligence: 20",
+    "description": "Feinting gives a brief auto-parry window."
+  },
+  {
+    "talent_name": "All Knowing",
+    "category": "Omniscient",
+    "requirements": "Intelligence: 60",
+    "description": "Your prediction now ignores the range requirement to reflect attacks."
+  },
+  {
+    "talent_name": "Going Nowhere",
+    "category": "Pursuer",
+    "requirements": "Strength: 25 | Agility: 25",
+    "description": "When enemies dodge your attacks, their momentum is killed and they're briefly prevented from sprinting."
+  },
+  {
+    "talent_name": "Blood Transfusion",
+    "category": "Quack Doctor",
+    "requirements": "Bloodrend: 60",
+    "description": "Successfully landing a critical attack while under a negative status effect will transfer the effect plus recover a small portion of your blood bar. (20 second CD)"
+  },
+  {
+    "talent_name": "Bulldozer",
+    "category": "Raging Bull",
+    "requirements": "Strength: 25",
+    "description": "Enemies you flourish into walls have a chance of breaking the wall and are guard broken on impact."
+  },
+  {
+    "talent_name": "Rending Needle: Impaler",
+    "category": "Rending Needle",
+    "requirements": "Ironsing: 75",
+    "description": "If an enemy has 5 or more rods, your Ironsing Pull instead pulls out all of the rods for massive damage."
+  },
+  {
+    "talent_name": "Rending Needle: Jailer",
+    "category": "Rending Needle",
+    "requirements": "Ironsing: 75",
+    "description": "If an enemy has 5 or more rods, your Ironsing Pull will restrain them instead of pulling them."
+  },
+  {
+    "talent_name": "Rending Needle: Conductor",
+    "category": "Rending Needle",
+    "requirements": "Ironsing: 75",
+    "description": "5 metal rods will combine into a conductor rod. If an enemy uses a non-Ironsing elemental mantra, they're dealt their element back in turn."
+  },
+  {
+    "talent_name": "Dirty Boxing",
+    "category": "Scoundrel",
+    "requirements": "Agility: 25 | Light Wep.: 1",
+    "description": "Enemies hit after you feint them with your fist suffer slight bleed and have their vision obscured slightly. 5s cooldown."
+  },
+  {
+    "talent_name": "Masterwork",
+    "category": "Scrapsinger",
+    "requirements": "Ironsing: 60",
+    "description": "Successful hits from Artisan Blades will proc metal rods and deal 50% more damage."
+  },
+  {
+    "talent_name": "Panacea",
+    "category": "Septicemia",
+    "requirements": "Bloodrend: 65",
+    "description": "Hitting an enemy with a Bloodrend mantra stops their blood poison from decaying briefly.\n[*Note: Lasts for 7 seconds.]"
+  },
+  {
+    "talent_name": "Shadow Travel",
+    "category": "Shadowcaster",
+    "requirements": "Shadowcast: 75",
+    "description": "Teleport to a location in exchange for Ether cost. Certain ranges will require a health sacrifice. Be careful as this technique can prove lethal to the user."
+  },
+  {
+    "talent_name": "Silencer's Blade",
+    "category": "Silencer",
+    "requirements": "Power: 10 | Galebreathe: 60",
+    "description": "Meleeing a 'Suffocated' opponent will extend the duration of the Suffocation and grant a speed boost."
+  },
+  {
+    "talent_name": "Golden Tongue",
+    "category": "Silvertongue",
+    "requirements": "Charisma: 40",
+    "description": "Typing gives a random buff to you and those around you. (60 second cooldown)"
+  },
+  {
+    "talent_name": "Bloodiron Spirit",
+    "category": "Soul Converter",
+    "requirements": "",
+    "description": "You regain some Armor upon killing enemies."
+  },
+  {
+    "talent_name": "Vanishing Wraith",
+    "category": "Specter",
+    "requirements": "Galebreathe: 60",
+    "description": "Your 'Aerial Attacks' while in Phantom Step will now teleport you behind your target."
+  },
+  {
+    "talent_name": "Punishing Blow",
+    "category": "Tactician",
+    "requirements": "Heavy Wep.: 20",
+    "description": "[Heavy Weapons] Daze opponents for 1s when you interrupt their Basic Attack with your own."
+  },
+  {
+    "talent_name": "Mirage Clone",
+    "category": "The Emperor's Blade",
+    "requirements": "Flamecharm: 65",
+    "description": "Successfully dodging leaves a heat mirage clone that sets enemies that swung at you on fire."
+  },
+  {
+    "talent_name": "Static Fakeout",
+    "category": "Thundercaller",
+    "requirements": "Agility: 30 | Thundercall: 35",
+    "description": "Roll cancelling immediately after a parry will cause you to teleport behind your opponent."
+  },
+  {
+    "talent_name": "Sow and Mend",
+    "category": "Transitory Vitality",
+    "requirements": "Bloodrend: 60",
+    "description": "Sacrifice 35% of your blood for temporary health."
+  },
+  {
+    "talent_name": "Cheap Shot",
+    "category": "Trickster",
+    "requirements": "Agility: 65",
+    "description": "Your attacks gain up to 10% PEN multiplicatively when you have an active speed boost.\n[*Note: 5% to 10% PEN between 20 and 65 Agility.]"
+  },
+  {
+    "talent_name": "Face Cutter",
+    "category": "Twinblade",
+    "requirements": "Medium Wep.: 75",
+    "description": "[Twinblade] Your Spine Cutter now deals an additional hit."
+  },
+  {
+    "talent_name": "Turning of the Wheel",
+    "category": "Twinblade",
+    "requirements": "Medium Wep.: 75",
+    "description": "[Twinblade] After perfect dodging a swing or critical attack, step backwards and ramp up your swingspeed."
+  },
+  {
+    "talent_name": "Burning Sacrifice",
+    "category": "Twisted Puppets",
+    "requirements": "Flamecharm: 40 | Shadowcast: 40",
+    "description": "Sacrifice puppets who have been alive for half of their lifetime and burn purple for Flame Emperor Stacks."
+  },
+  {
+    "talent_name": "Rule Through Fear",
+    "category": "Tyrant",
+    "requirements": "Strength: 50 | Charisma: 85",
+    "description": "Executing an enemy applies Overcharm to nearby allies and yourself."
+  },
+  {
+    "talent_name": "Denial Repulse",
+    "category": "Undying Ember",
+    "requirements": "Willpower: 40 | Flamecharm: 40",
+    "description": "You now emit a delayed burst of flames after coming close to death."
+  },
+  {
+    "talent_name": "Undying Flame",
+    "category": "Undying Ember",
+    "requirements": "Willpower: 40 | Flamecharm: 40",
+    "description": "Your flame can be casted in the depths. Standing close to your graceful flame will slowly restore sanity for others in the area."
+  },
+  {
+    "talent_name": "Cut to the Chase",
+    "category": "Vigil Swordsman",
+    "requirements": "Agility: 60",
+    "description": "You can now 'Aerial Attack' to catch enemies who have recently jumped in the air above you as an anti-air attack with reduced Light Attack damage. Upon hitting the opponent briefly hinder them."
+  },
+  {
+    "talent_name": "Speed Demon",
+    "category": "Vigil Swordsman",
+    "requirements": "Agility: 25",
+    "description": "Your attacks now inflict a reduced-strength bleed while you have a speed boost. 1s cooldown.\n[Normal bleed is 30%, this is 15%.]"
+  },
+  {
+    "talent_name": "Encore",
+    "category": "Vocalist",
+    "requirements": "Charisma: 40",
+    "description": "Your Sing now stun opponents who are already charmed."
+  },
+  {
+    "talent_name": "Chronostasis",
+    "category": "Warrior",
+    "requirements": "Power: 13",
+    "description": "Landing an Basic Attack or Critical Strike now puts target resonance on cooldown for a short duration."
+  },
+  {
+    "talent_name": "Scuba Drowner",
+    "category": "Waterborne",
+    "requirements": "Power: 5",
+    "description": "You won't always drown to death when downed in water."
+  },
+  {
+    "talent_name": "Showstopper",
+    "category": "Weapon Master",
+    "requirements": "Strength: 40",
+    "description": "When an enemy would roll through one of your physical attacks, stomp the ground, dazing anyone nearby. Removes speed buffs from target upon landing."
+  },
+  {
+    "talent_name": "Wisp Convergence",
+    "category": "Sage of Wisps",
+    "requirements": "Flamecharm: 30 | Frostdraw: 30 | Thundercall: 30 | Galebreathe: 30 | Shadowcast: 30 | Ironsing: 30 | Bloodrend: 30",
+    "description": "When empowered by the Chorus, your Wisps now grant their elements to your strikes."
+  },
+  {
+    "talent_name": "Against All Odds",
+    "category": "Absolute Focus",
+    "requirements": "Willpower: 65",
+    "description": "For each combat tag you have on your character, increase your damage by 1% (max of 7%)."
+  },
+  {
+    "talent_name": "Emergency Reserves",
+    "category": "Absolute Focus",
+    "requirements": "Willpower: 80",
+    "description": "When you get hit below 20% health, gain 20% tempo immediately (3 minute CD)."
+  },
+  {
+    "talent_name": "Unswayed",
+    "category": "Absolute Focus",
+    "requirements": "Willpower: 75",
+    "description": "The effects of Taunt and Encore no longer work on you."
+  },
+  {
+    "talent_name": "Kick Off",
+    "category": "Acrobat",
+    "requirements": "Agility: 20",
+    "description": "You easily brush off shorter falls, taking no damage. Your first wall jump will always send you higher than normal. Gain a speed boost after wall jumping over a wall."
+  },
+  {
+    "talent_name": "Steady Footing",
+    "category": "Acrobat",
+    "requirements": "Strength: 10 | Agility: 10",
+    "description": "You're much more resistant to being pushed around. You don't slide on ice."
+  },
+  {
+    "talent_name": "Time To Go",
+    "category": "Acrobat",
+    "requirements": "Agility: 5",
+    "description": "Taking a life grants a speed boost for 10 seconds. Taking a player's life doubles the speed boost and the duration."
+  },
+  {
+    "talent_name": "Exposed Durability",
+    "category": "Adaptive Arsenal",
+    "requirements": "Ironsing: 60",
+    "description": "Deal +10% damage to opponents with no armor durability left."
+  },
+  {
+    "talent_name": "Aeronade",
+    "category": "Aeromancer",
+    "requirements": "Galebreathe: 40",
+    "description": "Your trap automatically detonates on contact with an object."
+  },
+  {
+    "talent_name": "Gale Trap",
+    "category": "Aeromancer",
+    "requirements": "Galebreathe: 50",
+    "description": "Knocking a player tags them with a wind trap, cause anyone to pick up that body to get sent flying. However, if you pick up the body you gain the speed boost for 20 seconds."
+  },
+  {
+    "talent_name": "Suffocating Impact",
+    "category": "Aeromancer",
+    "requirements": "Strength: 15 | Galebreathe: 35",
+    "description": "When flourishing enemies into walls they are suffocated and winded for a short duration."
+  },
+  {
+    "talent_name": "Vacuum Punch",
+    "category": "Aeromancer",
+    "requirements": "Galebreathe: 15",
+    "description": "Your Gale Punch pulls enemies in before you hit them."
+  },
+  {
+    "talent_name": "Apothecary",
+    "category": "Alchemist",
+    "requirements": "Intelligence: 10",
+    "description": "Potions you prepare will have amplified positive effects when consumed, and amplified negative effects when thrown."
+  },
+  {
+    "talent_name": "Chain Reaction",
+    "category": "Alchemist",
+    "requirements": "Intelligence: 80",
+    "description": "When applying a potion effect to someone who already has one, the new effect is amplified. You have a 25% chance not to deplete potions when drinking them."
+  },
+  {
+    "talent_name": "Chemist's Bag",
+    "category": "Alchemist",
+    "requirements": "Intelligence: 80",
+    "description": "You no longer drop Potions on death."
+  },
+  {
+    "talent_name": "Wild Alchemy",
+    "category": "Alchemist",
+    "requirements": "Intelligence: 25",
+    "description": "You have a chance to brew 2 potions instead of 1."
+  },
+  {
+    "talent_name": "Approaching Singularity",
+    "category": "All-Knowing",
+    "requirements": "Intelligence: 80",
+    "description": "You now gain +1% Mantra PEN for every 10 points of Intelligence."
+  },
+  {
+    "talent_name": "Endurance Runner",
+    "category": "Alley Cat",
+    "requirements": "Fortitude: 25 | Agility: 25",
+    "description": "Even when things look dire, you still have it in you to keep your legs moving."
+  },
+  {
+    "talent_name": "Scaredy Cat",
+    "category": "Alley Cat",
+    "requirements": "Agility: 5",
+    "description": "When enemies initiate a fight with you, gain a speed boost."
+  },
+  {
+    "talent_name": "Flame Within",
+    "category": "Amoran Seeker",
+    "requirements": "Flamecharm: 25",
+    "description": "An application of Pleeksty's concept of the inner flame, also known as the soul of man. Set yourself ablaze to gain 10% extra damage and 10% extra speed."
+  },
+  {
+    "talent_name": "Grand Feast",
+    "category": "Apex Predator",
+    "requirements": "",
+    "description": "Regain ether, tempo, blood, and health from killing."
+  },
+  {
+    "talent_name": "Sunken Predator",
+    "category": "Apex Predator",
+    "requirements": "Power: 11",
+    "description": "Enemies you hit in the water or the depths have their speed buffs nullified and are slowed."
+  },
+  {
+    "talent_name": "Master Craftsman",
+    "category": "Artisan",
+    "requirements": "Intelligence: 45",
+    "description": "Your skills alone substitute the need for a Craft Station."
+  },
+  {
+    "talent_name": "Deep Wound",
+    "category": "Assassin",
+    "requirements": "Agility: 35",
+    "description": "Assassinating a target applies anti-heal for 20s and gives you a speed boost for 3s. Assassination damage now scales with level against mobs."
+  },
+  {
+    "talent_name": "Lights Out",
+    "category": "Assassin",
+    "requirements": "Agility: 55",
+    "description": "Assassinations now give you 30% PEN and blind the target for 5s. Those you carry are now blindfolded."
+  },
+  {
+    "talent_name": "Lowstride",
+    "category": "Assassin",
+    "requirements": "Agility: 20",
+    "description": "When crouching, your stealth and roll distance are increased. The speed penalty you receive from crouching is much smaller. You now draw and sheathe your weapon silently."
+  },
+  {
+    "talent_name": "Unseen Threat",
+    "category": "Assassin",
+    "requirements": "Agility: 60",
+    "description": "You can assassinate those with weapons out provided you're not in combat yourself. Those you assassinate are slowed and unable to jump for 5s."
+  },
+  {
+    "talent_name": "Authority Intimidation",
+    "category": "Authority Interrogator",
+    "requirements": "Power: 10 | Thundercall: 60",
+    "description": "Lightning moves slow your opponent more."
+  },
+  {
+    "talent_name": "First Interrogation",
+    "category": "Authority Interrogator",
+    "requirements": "Thundercall: 65",
+    "description": "Attacks from opponents who are Electrified will give you Ether proportional to their initial damage."
+  },
+  {
+    "talent_name": "Resolve Crusher",
+    "category": "Authority Interrogator",
+    "requirements": "Thundercall: 65",
+    "description": "Lightning moves now apply stacks of 'Resolve Crusher'. At 4 stacks, you apply 'Electrified' to your opponent. Attacks from Electrified opponents are converted into Lightning damage, but will deal 10% less damage to you."
+  },
+  {
+    "talent_name": "Second Interrogation",
+    "category": "Authority Interrogator",
+    "requirements": "Thundercall: 65",
+    "description": "Opponents who are electrified do 50% less damage to you and do 50% less posture damage to you."
+  },
+  {
+    "talent_name": "Battle Tendency",
+    "category": "Bastion",
+    "requirements": "Fortitude: 15 | Willpower: 15",
+    "description": "You can breathe more easily with +20% faster posture regen."
+  },
+  {
+    "talent_name": "Braced Collapse",
+    "category": "Bastion",
+    "requirements": "Fortitude: 25",
+    "description": "After being block broken, the next attack to hit you deals reduced damage."
+  },
+  {
+    "talent_name": "Moving Fortress",
+    "category": "Bastion",
+    "requirements": "Fortitude: 5",
+    "description": "Blocking no longer slows you down as much."
+  },
+  {
+    "talent_name": "Perseverance",
+    "category": "Bastion",
+    "requirements": "Fortitude: 30 | Willpower: 30",
+    "description": "When you're knocked down, you get back up again more quickly."
+  },
+  {
+    "talent_name": "Berserk",
+    "category": "Berserker",
+    "requirements": "Strength: 80",
+    "description": "One with nothing to lose has everything to gain. Succumb to the burning rage within, nullifying your own armor in exchange for nullifying the armor of your foes on your Basic Attacks. Grants your Criticals +10% PEN while active."
+  },
+  {
+    "talent_name": "Bloodwarden's Sense",
+    "category": "Bloodhound",
+    "requirements": "Bloodrend: 30",
+    "description": "Enemies you attack with a mantra above 60% Blood Poisoning are highlighted briefly."
+  },
+  {
+    "talent_name": "Bloodrend Unbounded",
+    "category": "Bloodrend Master",
+    "requirements": "Bloodrend: 75",
+    "description": "You have gained the ability to surpass your limits and train your bloodrend to its fullest.\n[Note: Falling below 75 Bloodrend revokes this Talent.]"
+  },
+  {
+    "talent_name": "Adept Bloodrender",
+    "category": "Bloodrender",
+    "requirements": "Bloodrend: 20",
+    "description": "You can now obtain 1-star Bloodrender mantras."
+  },
+  {
+    "talent_name": "Bloodrender",
+    "category": "Bloodrender",
+    "requirements": "Bloodrend: 1",
+    "description": "Gain the ability to command Blood as a Bloodrender. Your Bloodrend mantras replenish blood, steal blood, and apply 'Blood Poisoning'."
+  },
+  {
+    "talent_name": "Crimson Fountain",
+    "category": "Bloodrender",
+    "requirements": "Bloodrend: 40",
+    "description": "Blockbreaking or flourishing an enemy now spills a pool of blood below them."
+  },
+  {
+    "talent_name": "Expert Bloodrender",
+    "category": "Bloodrender",
+    "requirements": "Bloodrend: 30",
+    "description": "You can now obtain 2-star Bloodrender mantras."
+  },
+  {
+    "talent_name": "First Blood",
+    "category": "Bloodrender",
+    "requirements": "Bloodrend: 10",
+    "description": "Your first blood mantra you use in combat has no blood cost."
+  },
+  {
+    "talent_name": "Master Bloodrender",
+    "category": "Bloodrender",
+    "requirements": "Bloodrend: 50",
+    "description": "You can now obtain 3-star Bloodrender mantras. Your maximum blood capacity is 25% more than a normal individual. You regen blood at a quicker pace."
+  },
+  {
+    "talent_name": "Sheltering Grasp",
+    "category": "Bloodrender",
+    "requirements": "Bloodrend: 30",
+    "description": "Blood mantras cast within blood pools have a reduced blood cost."
+  },
+  {
+    "talent_name": "Sanguine Siphon",
+    "category": "Bloodrender",
+    "requirements": "Bloodrend: 40",
+    "description": "Landing a critical attack while in a blood pool will consume that pool and empower your next blood mantra."
+  },
+  {
+    "talent_name": "Blood and Iron",
+    "category": "Bloodsong",
+    "requirements": "Ironsing: 40 | Bloodrend: 40",
+    "description": "Pulling rods out of your opponent now replenishes an equivalent amount of blood."
+  },
+  {
+    "talent_name": "Brain Death",
+    "category": "Bloodsong",
+    "requirements": "Galebreathe: 40 | Bloodrend: 40",
+    "description": "Enemies that are already suffocated will have their suffocation extended when hit by a Bloodrend mantra."
+  },
+  {
+    "talent_name": "Cold Blooded",
+    "category": "Bloodsong",
+    "requirements": "Frostdraw: 40 | Bloodrend: 40",
+    "description": "Chilled enemies passively build up blood poision, alternatively when crystals explode it'll apply blood poison. (DOES NOT STACK)"
+  },
+  {
+    "talent_name": "Electrolyte",
+    "category": "Bloodsong",
+    "requirements": "Thundercall: 40 | Bloodrend: 40",
+    "description": "Hitting Bloodrend mantras while having temporary health applies electrify while removing a portion of temporary health."
+  },
+  {
+    "talent_name": "Malevolent Sapper",
+    "category": "Bloodsong",
+    "requirements": "Shadowcast: 40 | Bloodrend: 40",
+    "description": "The more blood poisoning your opponent has, the more ether your shadow mantras steal from your opponent."
+  },
+  {
+    "talent_name": "Scorchblood",
+    "category": "Bloodsong",
+    "requirements": "Flamecharm: 40 | Bloodrend: 40",
+    "description": "Guardbreaking your opponent with a bloodrend mantra causes a blood explosion, setting your opponent on fire and poisoning their blood."
+  },
+  {
+    "talent_name": "Bruiser's Mixup",
+    "category": "Brawler",
+    "requirements": "Light Wep.: 1",
+    "description": "Switching your fight Style mid-fight makes your basic Fist attack inflict bleed temporarily."
+  },
+  {
+    "talent_name": "Brazen Blow",
+    "category": "Bruiser",
+    "requirements": "Heavy Wep.: 30",
+    "description": "[Greataxe] Attacking an enemy slowed by your Greataxe grants you temporary hyperarmor. 20s CD."
+  },
+  {
+    "talent_name": "Impairing Blow",
+    "category": "Bruiser",
+    "requirements": "Heavy Wep.: 30",
+    "description": "[Greataxe] Basic attacks will slightly slow your enemy for 2s. Running attacks will slightly slow for 3s. Gain +20% posture damage against enemies with speed boosts"
+  },
+  {
+    "talent_name": "Dancing Guard",
+    "category": "Bulwark",
+    "requirements": "Fortitude: 55",
+    "description": "Parrying an opponent and then parrying another enemy in quick succession applies slow for up to 7s.\n[*Note: 4s to 7s duration between 20 and 55 Fortitude.]"
+  },
+  {
+    "talent_name": "Defensive Reprisal",
+    "category": "Bulwark",
+    "requirements": "Fortitude: 65",
+    "description": "Being flourished grants you 10% posture resistance for up to 20s.\n[*Note: 12s to 20s duration between 20 and 65 Fortitude.]"
+  },
+  {
+    "talent_name": "Down to your Level",
+    "category": "Bulwark",
+    "requirements": "Fortitude: 60",
+    "description": "While you have a speed debuff, your Basic Attacks slow your enemies for up to 5s.\n[*Note: 3s to 5s duration between 20 and 60 Fortitude.]"
+  },
+  {
+    "talent_name": "Knuckle Guard",
+    "category": "Bulwark",
+    "requirements": "Strength: 25 | Fortitude: 55",
+    "description": "Hitting Dazed enemies grants you 10% posture resistance for up to 15s.\n[*Note: 10s to 15s duration between 30 and 80 Strength + Fortitude.]"
+  },
+  {
+    "talent_name": "Swift Rebound",
+    "category": "Butterfly",
+    "requirements": "Agility: 15",
+    "description": "Move faster after successfully dodging an attack."
+  },
+  {
+    "talent_name": "Underdog",
+    "category": "Champion",
+    "requirements": "Willpower: 30",
+    "description": "You deal 2.5% more damage to those with higher HP than you, scaling up to 4% at 60 WLL. Additionally, you deal +10% more damage to physically larger foes."
+  },
+  {
+    "talent_name": "Charismatic Cast",
+    "category": "Charm Caster",
+    "requirements": "Charisma: 25",
+    "description": "Landing a hit with a mantra on an enemy applies Charmed, reducing their damage done to you. Allies recover from being knocked twice as quickly when charmed by you."
+  },
+  {
+    "talent_name": "Chaotic Charm",
+    "category": "Charm Caster",
+    "requirements": "Charisma: 55",
+    "description": "Charm enemies nearby when attacked at low health. Enemies affected by this charm have their damage increased to anyone but you, and deal reduce damage towards you.\n[*This Talent scales on your Charisma investment.]"
+  },
+  {
+    "talent_name": "Lasting Charisma",
+    "category": "Charm Caster",
+    "requirements": "Charisma: 55",
+    "description": "Enemies charmed by your mantras are charmed for longer.\n[*Scales by -0.275 seconds per Charisma invested point between 10s-15s."
+  },
+  {
+    "talent_name": "Tough Love",
+    "category": "Charm Caster",
+    "requirements": "Charisma: 25",
+    "description": "Deal 10% more damage to enemies charmed by you. Mantras deal 5% instead. Being hit by someone the same Aspect or Oath as you charms them briefly."
+  },
+  {
+    "talent_name": "Freezing Wight",
+    "category": "Cold Phantom",
+    "requirements": "Frostdraw: 40",
+    "description": "Your Haunted Gale now procs Chilled."
+  },
+  {
+    "talent_name": "Heavy Hitter",
+    "category": "Colossus",
+    "requirements": "Strength: 15 | Heavy Wep.: 25",
+    "description": "[Heavy Weapons] Your Basic Attack posture damage is increased by 10%."
+  },
+  {
+    "talent_name": "Pressure Detonation",
+    "category": "Cosmic Wind",
+    "requirements": "Galebreathe: 60 | Shadowcast: 40",
+    "description": "Block breaking an opponent with a Shadow mantra generates a small vacuum that suffocates those hit and steals their Tempo."
+  },
+  {
+    "talent_name": "Decisive Blow",
+    "category": "Critical Specialist",
+    "requirements": "Light Wep.: 30",
+    "description": "Hitting an enemy with your Critical Attack immediately after they dodge now procs Knife's Journey. Your Knife's Journey procs do 2x Armor damage."
+  },
+  {
+    "talent_name": "Finishing Touch",
+    "category": "Critical Specialist",
+    "requirements": "Agility: 50 | Light Wep.: 40",
+    "description": "[Daggers] Instantly execute enemies finished with the critical attack of your dagger."
+  },
+  {
+    "talent_name": "Successive Throw",
+    "category": "Critical Specialist",
+    "requirements": "Light Wep.: 35",
+    "description": "[Dagger] When you successfully flourish an enemy, you throw out a dagger afterwards."
+  },
+  {
+    "talent_name": "Chilling Flourish",
+    "category": "Cryomancer",
+    "requirements": "Frostdraw: 30",
+    "description": "When flourishing an enemy, they leave behind a trail of ice in the direction you send them."
+  },
+  {
+    "talent_name": "Condensation Drip",
+    "category": "Cryomancer",
+    "requirements": "Intelligence: 20 | Frostdraw: 15",
+    "description": "Passively collect condensation from the air, greatly reducing your thirst."
+  },
+  {
+    "talent_name": "Cool Head",
+    "category": "Cryomancer",
+    "requirements": "Frostdraw: 30",
+    "description": "If set on fire while on ice, immediately put it out and gain the Cool Head status for 30s. During Cool Head, you cannot be lit on fire. 15s cooldown."
+  },
+  {
+    "talent_name": "Fragile Freeze",
+    "category": "Cryomancer",
+    "requirements": "Frostdraw: 60",
+    "description": "Your Light Attacks and Critical will now freeze chilled opponents on guardbreak."
+  },
+  {
+    "talent_name": "Spike Traps",
+    "category": "Cryomancer",
+    "requirements": "Frostdraw: 30",
+    "description": "Press [F] during the wind up of your Ice Spikes to create traps around you instead of spawning a spike in the normal spot."
+  },
+  {
+    "talent_name": "Blood Thirsty",
+    "category": "Cutthroat",
+    "requirements": "Agility: 45",
+    "description": "Gain a speed boost after causing an opponent heavy blood loss."
+  },
+  {
+    "talent_name": "In a Hurry",
+    "category": "Cutthroat",
+    "requirements": "Agility: 30",
+    "description": "Grip players faster whenever you have a speed boost active."
+  },
+  {
+    "talent_name": "Muffled Screams",
+    "category": "Cutthroat",
+    "requirements": "Agility: 50",
+    "description": "You quieten the cries of help of those you execute, reducing the distance at which their allies will hear it and come to assist, and reduce the effectiveness of talents that slow your execution."
+  },
+  {
+    "talent_name": "Blighted Song",
+    "category": "Darksiphon",
+    "requirements": "Fortitude: 10 | Shadowcast: 20",
+    "description": "Attaching your Shadow Chains to enemies disables both your and your enemy's ability to cast mantras. You take reduced damage from non-chained enemies while this is applied."
+  },
+  {
+    "talent_name": "Dark God",
+    "category": "Darksiphon",
+    "requirements": "Shadowcast: 20",
+    "description": "If a Shadowcast mantra would drain your opponent's Ether to 0, drain from their Tempo instead and increase your Tempo. Shadowcast mantras will now raise your tempo if your ether is full."
+  },
+  {
+    "talent_name": "Dark Hours",
+    "category": "Darksiphon",
+    "requirements": "Shadowcast: 35",
+    "description": "Your Shadowcast Mantras deal 15% more damage at night and in realms the Sun does not reach."
+  },
+  {
+    "talent_name": "Dark Replenishment",
+    "category": "Darksiphon",
+    "requirements": "Intelligence: 25 | Shadowcast: 50",
+    "description": "Knocking out an enemy in combat restores a portion of your ether."
+  },
+  {
+    "talent_name": "Dark Synergy",
+    "category": "Darksiphon",
+    "requirements": "Shadowcast: 45",
+    "description": "Engulf your enemy in shadows when flourishing them."
+  },
+  {
+    "talent_name": "Overwhelming Drain",
+    "category": "Darksiphon",
+    "requirements": "Shadowcast: 20",
+    "description": "If multiple enemies are hit by your Shadow Eruption, they are dazed."
+  },
+  {
+    "talent_name": "Shadow Overflow",
+    "category": "Darksiphon",
+    "requirements": "Shadowcast: 55",
+    "description": "Extra ether stolen with mantras are exerted as dark energy, damaging and absorbing ether from those nearby."
+  },
+  {
+    "talent_name": "Blackhole",
+    "category": "Death Speaker",
+    "requirements": "Power: 13 | Shadowcast: 60",
+    "description": "Your singularity pulls everyone nearby in."
+  },
+  {
+    "talent_name": "Energy Siphon",
+    "category": "Death Speaker",
+    "requirements": "Power: 13 | Shadowcast: 60",
+    "description": "Your singularity now pulls ether from the extra players affected by Blackhole."
+  },
+  {
+    "talent_name": "Depths Connection",
+    "category": "Deepwoken",
+    "requirements": "",
+    "description": "Your interaction with The Depths allows you to easily draw ether from the surrounding air."
+  },
+  {
+    "talent_name": "Frozen Web",
+    "category": "Doomsday Engine",
+    "requirements": "Frostdraw: 40 | Thundercall: 40",
+    "description": "Landing a critical with a Static Link on your opponent applies Chilled."
+  },
+  {
+    "talent_name": "Concussive Force",
+    "category": "Duelist",
+    "requirements": "Strength: 15",
+    "description": "Enemies you knocked remain downed longer than usual."
+  },
+  {
+    "talent_name": "Precise Swing",
+    "category": "Duelist",
+    "requirements": "Strength: 25 | Agility: 15",
+    "description": "After landing a critical your next basic attack will have +25% chip damage."
+  },
+  {
+    "talent_name": "Steady Nerves",
+    "category": "Duelist",
+    "requirements": "Strength: 15 | Agility: 45",
+    "description": "You dance from toe to toe - successful dodges restore posture."
+  },
+  {
+    "talent_name": "Strong Hold",
+    "category": "Duelist",
+    "requirements": "Strength: 30 | Medium Wep.: 30",
+    "description": "[Medium Weapons] When above 33% health and two-handling, posture damage taken is reduced by 5%."
+  },
+  {
+    "talent_name": "Concussive Flash",
+    "category": "Duelist Flame",
+    "requirements": "Strength: 25 | Flamecharm: 30",
+    "description": "Your blinding light now concusses foes."
+  },
+  {
+    "talent_name": "Nullifying Clarity",
+    "category": "Elemental Rebound",
+    "requirements": "Strength: 15 | Intelligence: 5",
+    "description": "Deal 10% more damage to enemies with status effects on them with your basic attacks but the effect is removed on impact."
+  },
+  {
+    "talent_name": "Charged Return",
+    "category": "Elemental Rebound",
+    "requirements": "Strength: 15 | Willpower: 20",
+    "description": "Being under an elemental status effect causes your Basic Attacks and critical attacks to do 15% more damage."
+  },
+  {
+    "talent_name": "Cornered Fool",
+    "category": "Empath",
+    "requirements": "Charisma: 85",
+    "description": "Blockbreaking a Charmed opponent procs Taunt for a scaled duration, making them take and deal more damage. 15s CD.\n[*Note: 3 seconds at 0 Charisma, 6 seconds at 85 Charisma.]"
+  },
+  {
+    "talent_name": "Give and Take",
+    "category": "Empath",
+    "requirements": "Charisma: 35",
+    "description": "Deal less damage to comrades and receive less damage from comrades.\n[*Note: 20% less damage to and from allies.]"
+  },
+  {
+    "talent_name": "Off Your Game",
+    "category": "Empath",
+    "requirements": "Charisma: 90",
+    "description": "You now slow Taunted enemies when you hit them."
+  },
+  {
+    "talent_name": "Robber Baron",
+    "category": "Escape Artist",
+    "requirements": "",
+    "description": "You hold onto more of your items when defeated."
+  },
+  {
+    "talent_name": "Mantra Permanence",
+    "category": "Ether Conduit",
+    "requirements": "Intelligence: 20",
+    "description": "Knocking an enemy with a mantra refunds the cost of the mantra."
+  },
+  {
+    "talent_name": "Ether Absorption",
+    "category": "Ether Conduit",
+    "requirements": "Intelligence: 15",
+    "description": "Receive Ether back when inflicted with damage from Mantras."
+  },
+  {
+    "talent_name": "Behind You",
+    "category": "Ether Endeavors",
+    "requirements": "Agility: 40 | Intelligence: 70",
+    "description": "Landing a basic attack behind your enemy after feinting a mantra will apply an ether slash, dealing extra damage based on how much ether you have left."
+  },
+  {
+    "talent_name": "Keen Recovery",
+    "category": "Ether Endeavors",
+    "requirements": "Intelligence: 55",
+    "description": "Landing a basic attack after feinting a mantra will restore the feinted mantra's ether cost."
+  },
+  {
+    "talent_name": "Reverse Leech",
+    "category": "Ether Endeavors",
+    "requirements": "Shadowcast: 60",
+    "description": "Anytime you proc Behind You, steal ether from your opponent too."
+  },
+  {
+    "talent_name": "Meteor Impact",
+    "category": "Falling Star Guard",
+    "requirements": "Flamecharm: 25",
+    "description": "Aerial moves will follow up into a devastating slam."
+  },
+  {
+    "talent_name": "Phoenix Impact",
+    "category": "Falling Star Guard",
+    "requirements": "Flamecharm: 40",
+    "description": "If you Meteor Slam an opponent while you're on Fire, restore some HP and Ether."
+  },
+  {
+    "talent_name": "Dancing Steps",
+    "category": "Flame Dancer",
+    "requirements": "Power: 8 | Flamecharm: 35",
+    "description": "Fire mantras now move you in the direction you're facing."
+  },
+  {
+    "talent_name": "Cauterized Wounds",
+    "category": "Flame Warden",
+    "requirements": "Fortitude: 5 | Flamecharm: 40",
+    "description": "Blood loss from all sources is lowered."
+  },
+  {
+    "talent_name": "Flamewalker",
+    "category": "Flame Warden",
+    "requirements": "Agility: 25 | Flamecharm: 40",
+    "description": "When Warding Radiance is active you leave trails of flame when you slide."
+  },
+  {
+    "talent_name": "Hell's Partisan [WARDING]",
+    "category": "Flame Warden",
+    "requirements": "Flamecharm: 35",
+    "description": "After landing a flame dagger on an opponent, your next hit against them will impale with a divine spear from above."
+  },
+  {
+    "talent_name": "Hell's Partisan [FIRE FORGE]",
+    "category": "Flame Warden",
+    "requirements": "Flamecharm: 35",
+    "description": "After landing a flame dagger on an opponent, your next hit against them will impale with a divine spear from above."
+  },
+  {
+    "talent_name": "Flamecharm Unbounded",
+    "category": "Flamecharm Master",
+    "requirements": "Flamecharm: 75",
+    "description": "You have gained the ability to surpass your limits and train your flamecharm to its fullest.\n[Note: Falling below 75 Flamecharm revokes this Talent.]"
+  },
+  {
+    "talent_name": "Azure Flames",
+    "category": "Flamecharmer",
+    "requirements": "Willpower: 40 | Flamecharm: 70",
+    "description": "Many of your flames turn blue, signifying their increased intensity."
+  },
+  {
+    "talent_name": "Produce Spark",
+    "category": "Flamecharmer",
+    "requirements": "Flamecharm: 20",
+    "description": "A simple production of flame for the use of making campfires."
+  },
+  {
+    "talent_name": "Unyielding Inferno",
+    "category": "Flamecharmer",
+    "requirements": "Flamecharm: 35",
+    "description": "Your flames burn just as strong even in the fiercest of storms."
+  },
+  {
+    "talent_name": "Flamecharmer",
+    "category": "Flamecharmer",
+    "requirements": "Flamecharm: 1",
+    "description": "Grants you the ability to command Fire as a Flamecharmer."
+  },
+  {
+    "talent_name": "Adept Flamecharmer",
+    "category": "Flamecharmer",
+    "requirements": "Flamecharm: 20",
+    "description": "You can now obtain 1-star Flamecharmer Mantras."
+  },
+  {
+    "talent_name": "Expert Flamecharmer",
+    "category": "Flamecharmer",
+    "requirements": "Flamecharm: 30",
+    "description": "You can now obtain 2-star Flamecharmer Mantras."
+  },
+  {
+    "talent_name": "Master Flamecharmer",
+    "category": "Flamecharmer",
+    "requirements": "Flamecharm: 50",
+    "description": "You can now obtain 3-star Flamecharmer mantras."
+  },
+  {
+    "talent_name": "Temperature Shock",
+    "category": "Flashfreeze",
+    "requirements": "Flamecharm: 40 | Frostdraw: 40",
+    "description": "Your fire mantras now detonate any stacked crystals."
+  },
+  {
+    "talent_name": "Agility Unbounded",
+    "category": "Flow",
+    "requirements": "Agility: 75",
+    "description": "You have gained the ability to surpass your limits and train your agility to its fullest."
+  },
+  {
+    "talent_name": "Glacial Mobility",
+    "category": "Frost Forger",
+    "requirements": "Agility: 20 | Frostdraw: 20",
+    "description": "Cast Ice Blade while slide-jumping to perform a special running attack."
+  },
+  {
+    "talent_name": "Glacial Finish",
+    "category": "Frost Forger",
+    "requirements": "Frostdraw: 35",
+    "description": "Press [F] while using your Ice Smash Mantra to follow up with a devastating attack."
+  },
+  {
+    "talent_name": "Frostdraw Unbounded",
+    "category": "Frostdraw Master",
+    "requirements": "Frostdraw: 75",
+    "description": "You have gained the ability to surpass your limits and train your frostdraw to its fullest.\n[Note: Falling below 75 Frostdraw revokes this Talent.]"
+  },
+  {
+    "talent_name": "Cold Front",
+    "category": "Frostdrawer",
+    "requirements": "Frostdraw: 25",
+    "description": "Your Vent is imbued with glacial frost."
+  },
+  {
+    "talent_name": "Frostdrawer",
+    "category": "Frostdrawer",
+    "requirements": "Frostdraw: 1",
+    "description": "Grants you the ability to command Ice as a Frostdrawer."
+  },
+  {
+    "talent_name": "Adept Frostdrawer",
+    "category": "Frostdrawer",
+    "requirements": "Frostdraw: 20",
+    "description": "You can now obtain 1-star Frostdrawer mantras."
+  },
+  {
+    "talent_name": "Expert Frostdrawer",
+    "category": "Frostdrawer",
+    "requirements": "Frostdraw: 30",
+    "description": "You can now obtain 2-star Frostdrawer mantras."
+  },
+  {
+    "talent_name": "Master Frostdrawer",
+    "category": "Frostdrawer",
+    "requirements": "Frostdraw: 50",
+    "description": "You can now obtain 3-star Frostdrawer mantras."
+  },
+  {
+    "talent_name": "Glacial Coasting",
+    "category": "Frostthorn",
+    "requirements": "Agility: 25 | Frostdraw: 50",
+    "description": "Sliding while Orbital Ice is active leaves trails of ice."
+  },
+  {
+    "talent_name": "Orbital Ice",
+    "category": "Frostthorn",
+    "requirements": "Frostdraw: 65",
+    "description": "When landing a parry while standing on ice, automatically form a ring of ice that grants 15% Physical Resistance. The ring will break after sustaining a certain amount of damage, scaling with your Frostdraw."
+  },
+  {
+    "talent_name": "Fulgurite Formation",
+    "category": "Frozen Lightning",
+    "requirements": "Frostdraw: 50 | Thundercall: 50",
+    "description": "When your Crystals explode, lightning strikes. When your Surge charges Overload on an enemy, your Crystals apply twice on them for 8s."
+  },
+  {
+    "talent_name": "Tempest Wind",
+    "category": "Gale Duelist",
+    "requirements": "Galebreathe: 20",
+    "description": "Cast Wind Blade while sliding to unleash a quick whirlwind attack."
+  },
+  {
+    "talent_name": "Galebreathe Unbounded",
+    "category": "Galebreathe Master",
+    "requirements": "Galebreathe: 75",
+    "description": "You have gained the ability to surpass your limits and train your galebreathe to its fullest.\n[Note: Falling below 75 Galebreathe revokes this Talent.]"
+  },
+  {
+    "talent_name": "Galebreather",
+    "category": "Galebreather",
+    "requirements": "Galebreathe: 1",
+    "description": "Grants you the ability to command Wind as a Galebreather"
+  },
+  {
+    "talent_name": "Adept Galebreather",
+    "category": "Galebreather",
+    "requirements": "Galebreathe: 20",
+    "description": "You can now obtain 1-star Galebreather mantras."
+  },
+  {
+    "talent_name": "Expert Galebreather",
+    "category": "Galebreather",
+    "requirements": "Galebreathe: 30",
+    "description": "You can now obtain 2-star Galebreather mantras."
+  },
+  {
+    "talent_name": "Master Galebreather",
+    "category": "Galebreather",
+    "requirements": "Galebreathe: 50",
+    "description": "You can now obtain 3-star Galebreather mantras."
+  },
+  {
+    "talent_name": "After Cut",
+    "category": "Galeforce",
+    "requirements": "Galebreathe: 40",
+    "description": "If an attack is physical and wind it will apply an after cut that does 10% of the damage you dealt. If the attack was a mantra, it does 5% damage instead."
+  },
+  {
+    "talent_name": "Breathing Impact",
+    "category": "Galeforce",
+    "requirements": "Galebreathe: 30",
+    "description": "Knocking enemies into objects with wind spells deals additional blunt damage based on how hard they're hit."
+  },
+  {
+    "talent_name": "Inhale",
+    "category": "Galeforce",
+    "requirements": "Galebreathe: 60",
+    "description": "Cancelling a wind spell stores its power in your lungs for 5 seconds, empowering the next wind spell cast in that time. All relevant modifications and upgrades from the inhaled wind mantra are applied to the empowered mantra. Inhaling a spell will cause the wind to be applied to your Basic Attacks."
+  },
+  {
+    "talent_name": "Crystal Shrapnel",
+    "category": "Glassdancer",
+    "requirements": "Frostdraw: 60",
+    "description": "Your Crystal explosions now have an AoE that applies crystals to all hit."
+  },
+  {
+    "talent_name": "Glass Path: Crystallization",
+    "category": "Glassdancer",
+    "requirements": "Frostdraw: 40",
+    "description": "Your Ice abilities no longer grant a slow effect or the ability to freeze and instead cause ice crystals to grow on your opponent."
+  },
+  {
+    "talent_name": "Reclaimed Glass",
+    "category": "Glassdancer",
+    "requirements": "Frostdraw: 65",
+    "description": "Your crystal shrapnel explosions now grant you and any allies caught in them for 10% Elemental Resistance for 10s."
+  },
+  {
+    "talent_name": "Fortitude Unbounded",
+    "category": "Great Wall",
+    "requirements": "Fortitude: 75",
+    "description": "You have gained the ability to surpass your limits and train your fortitude to its fullest."
+  },
+  {
+    "talent_name": "Bulletproof [FTD]",
+    "category": "Gunslinger",
+    "requirements": "Fortitude: 20",
+    "description": "You take no Armor damage from guns. You take 5% less Armor damage from other sources."
+  },
+  {
+    "talent_name": "Bulletproof [LHT]",
+    "category": "Gunslinger",
+    "requirements": "Light Wep.: 20",
+    "description": "You take no Armor damage from guns. You take 5% less Armor damage from other sources."
+  },
+  {
+    "talent_name": "Bulletproof [MED]",
+    "category": "Gunslinger",
+    "requirements": "Medium Wep.: 20",
+    "description": "You take no Armor damage from guns. You take 5% less Armor damage from other sources."
+  },
+  {
+    "talent_name": "Quickdraw",
+    "category": "Gunslinger",
+    "requirements": "Light Wep.: 55",
+    "description": "Allows you to fire your offhand gun right after swinging. [Not necessary on dual guns]"
+  },
+  {
+    "talent_name": "Parting Gift",
+    "category": "Gunslinger",
+    "requirements": "Light Wep.: 75",
+    "description": "After you land a flourish, gain the ability to shoot bullets for 5 seconds. [Dual Gun]"
+  },
+  {
+    "talent_name": "Brain Rattler",
+    "category": "Hammer Rage",
+    "requirements": "Medium Wep.: 50",
+    "description": "[Clubs] Guardbreaking an opponent with your Critical rattles their brain in its container, causing increased blood loss and blurring their vision."
+  },
+  {
+    "talent_name": "Dispatch",
+    "category": "Hammer Rage",
+    "requirements": "Medium Wep.: 55",
+    "description": "[Clubs] Bear Trapped targets deal 20% less posture. Dazed targets deal 20% less posture. This can stack."
+  },
+  {
+    "talent_name": "Hammerfall",
+    "category": "Hammer Rage",
+    "requirements": "Medium Wep.: 35",
+    "description": "[Clubs] Aerial attacks do 25% more posture damage when blocked."
+  },
+  {
+    "talent_name": "Fan the Flames",
+    "category": "Heat Column",
+    "requirements": "Flamecharm: 40",
+    "description": "Your stored Wind mantras can now empower your Fire mantras.\n[Note: Some Flamecharm Mantras negatively scale with size! Looking at you, Fire Eruption.]"
+  },
+  {
+    "talent_name": "Bottom Freeze",
+    "category": "Ice Age",
+    "requirements": "Frostdraw: 25",
+    "description": "Hitting chilled enemies with ice projectiles while they are on ice freezes them to the ground."
+  },
+  {
+    "talent_name": "Cryonis",
+    "category": "Ice Age",
+    "requirements": "Frostdraw: 40",
+    "description": "All ice spells casted on top of ice cost less Ether."
+  },
+  {
+    "talent_name": "Frost Buster",
+    "category": "Ice Age",
+    "requirements": "Heavy Wep.: 15 | Frostdraw: 45",
+    "description": "Greatsword and Greathammer criticals now place Ice underneath the path they carve."
+  },
+  {
+    "talent_name": "Frostbite",
+    "category": "Ice Age",
+    "requirements": "Frostdraw: 25",
+    "description": "Enemies can no longer heal when under the effect of your chill."
+  },
+  {
+    "talent_name": "Agitating Spark",
+    "category": "Immolator",
+    "requirements": "Flamecharm: 40",
+    "description": "Setting enemies on fire spreads to anyone nearby. Including yourself."
+  },
+  {
+    "talent_name": "Immolation",
+    "category": "Immolator",
+    "requirements": "Flamecharm: 40",
+    "description": "Fire spells cost 70% less while on fire. If you hit someone while on fire, apply fire damage. You take 50% less damage from self-inflicted flames."
+  },
+  {
+    "talent_name": "Corpse Explosion",
+    "category": "Inferno",
+    "requirements": "Flamecharm: 60",
+    "description": "Bodies that burn to death immediately explode dealing massive damage. Your fires will incinerate unconscious targets much faster."
+  },
+  {
+    "talent_name": "Pleeksty's Faith",
+    "category": "Inferno",
+    "requirements": "Willpower: 15 | Charisma: 15 | Flamecharm: 25",
+    "description": "When on fire, automatically quench flames at the cost of some ether."
+  },
+  {
+    "talent_name": "Willpower Unbounded",
+    "category": "Iron Will",
+    "requirements": "Willpower: 75",
+    "description": "You have gained the ability to surpass your limits and train your willpower to its fullest."
+  },
+  {
+    "talent_name": "Ironsing Unbounded",
+    "category": "Ironsing Master",
+    "requirements": "Ironsing: 75",
+    "description": "You have gained the ability to surpass your limits and train your ironsing to its fullest.\n[Note: Falling below 75 Ironsing revokes this Talent.]"
+  },
+  {
+    "talent_name": "Heavy Shoulders",
+    "category": "Ironsinger",
+    "requirements": "Ironsing: 55",
+    "description": "If your opponent has 3 or more rods, their dodges are slower."
+  },
+  {
+    "talent_name": "Laced Traps",
+    "category": "Ironsinger",
+    "requirements": "Ironsing: 45",
+    "description": "People hit by your 'Caltrops' cannot jump and are slowed for a small duration."
+  },
+  {
+    "talent_name": "Metal Shackles",
+    "category": "Ironsinger",
+    "requirements": "Strength: 15 | Ironsing: 40",
+    "description": "Guardbreaking an opponent prevents them from receiving speed boosts for 5 seconds."
+  },
+  {
+    "talent_name": "Oh The Irony",
+    "category": "Ironsinger",
+    "requirements": "Charisma: 40 | Ironsing: 60",
+    "description": "Opponents affected by 'Taunt' receive double iron rods for the duration."
+  },
+  {
+    "talent_name": "Piercing Metal",
+    "category": "Ironsinger",
+    "requirements": "Power: 13 | Ironsing: 60",
+    "description": "Deal additional armor damage to enemies per metal rod affecting them"
+  },
+  {
+    "talent_name": "Thornmail",
+    "category": "Ironsinger",
+    "requirements": "Ironsing: 45",
+    "description": "Getting flourished applies a metal rod to the attacker."
+  },
+  {
+    "talent_name": "Ironsinger",
+    "category": "Ironsinger",
+    "requirements": "Ironsing: 1",
+    "description": "Grants you the ability to command Metal as an Ironsinger. Press X to pull on Metal Rods."
+  },
+  {
+    "talent_name": "Adept Ironsinger",
+    "category": "Ironsinger",
+    "requirements": "Ironsing: 20",
+    "description": "You can now obtain 1-star Ironsinger mantras."
+  },
+  {
+    "talent_name": "Expert Ironsinger",
+    "category": "Ironsinger",
+    "requirements": "Ironsing: 30",
+    "description": "You can now obtain 2-star Ironsinger mantras."
+  },
+  {
+    "talent_name": "Master Ironsinger",
+    "category": "Ironsinger",
+    "requirements": "Ironsing: 50",
+    "description": "You can now obtain 3-star Ironsinger mantras."
+  },
+  {
+    "talent_name": "Ironclad Punishment",
+    "category": "Ironsinger",
+    "requirements": "Ironsing: 45",
+    "description": "Your Ironsing mantras deal more posture damage to enemies the more armor durability they have."
+  },
+  {
+    "talent_name": "Jus Karita",
+    "category": "Justicar",
+    "requirements": "Light Wep.: 25",
+    "description": "Adopt the kick-based fighting style of the Justicars."
+  },
+  {
+    "talent_name": "Justicar's Prowess",
+    "category": "Justicar",
+    "requirements": "",
+    "description": "Jus Karita +30% posture damage against other fist styles."
+  },
+  {
+    "talent_name": "Justicar's Renewal",
+    "category": "Justicar",
+    "requirements": "",
+    "description": "Hitting an opponent with your Jus Karita critical resets the cooldown. (10s cooldown)"
+  },
+  {
+    "talent_name": "Flying Swiftkick",
+    "category": "Justicar",
+    "requirements": "",
+    "description": "Hitting a Jus Karita critical attack while Swiftkick Prodigy is active will greatly slow your enemy and consume your speed boost."
+  },
+  {
+    "talent_name": "Swiftkick Prodigy",
+    "category": "Justicar",
+    "requirements": "",
+    "description": "Hitting successive basic attacks with Jus Karita will give you a temporary speed buff."
+  },
+  {
+    "talent_name": "Kickstart [CHA]",
+    "category": "Kickstarter",
+    "requirements": "Charisma: 40 | Thundercall: 50",
+    "description": "Play the resurrector. Use your lightning to defibrillate your allies on the battlefield."
+  },
+  {
+    "talent_name": "Kickstart [FTD]",
+    "category": "Kickstarter",
+    "requirements": "Fortitude: 40 | Thundercall: 50",
+    "description": "Play the resurrector. Use your lightning to defibrillate your allies on the battlefield."
+  },
+  {
+    "talent_name": "Blade's Edge",
+    "category": "Lancer",
+    "requirements": "Medium Wep.: 30",
+    "description": "[Spears] Damage dealt with the tip of the spear is increased by 10%."
+  },
+  {
+    "talent_name": "Defensive Sweep",
+    "category": "Lancer",
+    "requirements": "Medium Wep.: 50",
+    "description": "[Spears] Posture breaking an opponent grants you +50% PEN for 3 seconds."
+  },
+  {
+    "talent_name": "Driving Impact",
+    "category": "Lancer",
+    "requirements": "Medium Wep.: 30",
+    "description": "[Spears] The first hit of your Spear's Critical Attack will deal greatly increased posture damage. Subsequent hits will do reduced posture damage."
+  },
+  {
+    "talent_name": "Hoplite",
+    "category": "Lancer",
+    "requirements": "Fortitude: 15",
+    "description": "Posture damage is reduced by 15% when wielding a spear and standing still."
+  },
+  {
+    "talent_name": "Lancer's Impale",
+    "category": "Lancer",
+    "requirements": "Medium Wep.: 30",
+    "description": "[Spears] Hitting an enemy after a dodge makes your next attack deal bleed damage. If that attack would already bleed, it adds +10% chip damage instead."
+  },
+  {
+    "talent_name": "Empowered Eruption",
+    "category": "Lava Serpent",
+    "requirements": "Flamecharm: 50",
+    "description": "Your next Eruption after landing a critical is Empowered with +50% range and damage. 10s cooldown."
+  },
+  {
+    "talent_name": "Flash Point",
+    "category": "Lava Serpent",
+    "requirements": "Flamecharm: 55",
+    "description": "Block breaking an opponent causes your Eruptions to be Empowered for the next 10s. 45s CD. Block breaking an opponent with a Fire Mantra procs Burning."
+  },
+  {
+    "talent_name": "Eruption Path: Lava Serpent",
+    "category": "Lava Serpent",
+    "requirements": "Flamecharm: 40",
+    "description": "Your fire abilities no longer proc burn and instead proc on eruption under the enemies feet."
+  },
+  {
+    "talent_name": "Callout",
+    "category": "Leader",
+    "requirements": "Charisma: 20",
+    "description": "You can mark objects or enemies by pressing Z, which will mark them for all nearby allies."
+  },
+  {
+    "talent_name": "Spotter",
+    "category": "Leader",
+    "requirements": "Charisma: 40",
+    "description": "Marking enemies while in Rhythm will indicate their health status to your allies."
+  },
+  {
+    "talent_name": "Air Pressure",
+    "category": "Legion Shock Trooper",
+    "requirements": "Agility: 20 | Galebreathe: 50",
+    "description": "Dodging an attack or hitting an enemy's block will transform your next dash into a Gale Dash."
+  },
+  {
+    "talent_name": "Cyclone Blade",
+    "category": "Legion Shock Trooper",
+    "requirements": "Agility: 30 | Galebreathe: 55",
+    "description": "After a successful Gale Dash you wrap your weapon in wind essence causing your next Light attack to do bleed damage, and adding +10% chip damage."
+  },
+  {
+    "talent_name": "Pressure Break [AGL]",
+    "category": "Legion Shock Trooper",
+    "requirements": "Agility: 30 | Galebreathe: 65",
+    "description": "Breaking an enemy's posture will cause them take intense wind pressure damage and be flung backwards."
+  },
+  {
+    "talent_name": "Pressure Break [STR]",
+    "category": "Legion Shock Trooper",
+    "requirements": "Strength: 30 | Galebreathe: 65",
+    "description": "Breaking an enemy's posture will cause them take intense wind pressure damage and be flung backwards."
+  },
+  {
+    "talent_name": "Wind Step",
+    "category": "Legion Shock Trooper",
+    "requirements": "Galebreathe: 40",
+    "description": "Create a step of wind below you when jumping in the air. Jumping while sliding down a slope or off a cliff launches you forwards. (5s combat CD, 1s normal CD)"
+  },
+  {
+    "talent_name": "Savior",
+    "category": "Liberator",
+    "requirements": "Willpower: 15",
+    "description": "After saving a player from being gripped gain a short speed boost for a short duration."
+  },
+  {
+    "talent_name": "Scorched Peak",
+    "category": "Lichtenberg",
+    "requirements": "Flamecharm: 25 | Thundercall: 50",
+    "description": "Blockbreaking an enemy on fire or with a fire mantra causes them to be struck by lightning."
+  },
+  {
+    "talent_name": "Comeback Kid",
+    "category": "Limitbreaker",
+    "requirements": "Power: 8",
+    "description": "When waking up from being knocked you are unable to be knocked down for 5 seconds. (120 second cooldown)"
+  },
+  {
+    "talent_name": "Defiant until the End",
+    "category": "Limitbreaker",
+    "requirements": "Willpower: 20",
+    "description": "Slow the enemy trying to execute you down with one last shout of your determination"
+  },
+  {
+    "talent_name": "Last Resort",
+    "category": "Limitbreaker",
+    "requirements": "Willpower: 35",
+    "description": "Deal +10% more damage when your health is significantly low."
+  },
+  {
+    "talent_name": "The Eleventh Hour",
+    "category": "Limitbreaker",
+    "requirements": "Willpower: 35",
+    "description": "When below 15% health your mantras require no ether to cast for 11 seconds. 60s CD"
+  },
+  {
+    "talent_name": "Old Habits Die Hard",
+    "category": "Marauder",
+    "requirements": "Willpower: 20",
+    "description": "Blocking an attack with your lingering block frames after failing a parry will cause the attack to deal 15% less posture damage."
+  },
+  {
+    "talent_name": "Stock Bash",
+    "category": "Marksman",
+    "requirements": "Strength: 25 | Medium Wep.: 55",
+    "description": "[Rifles] Your running attacks now apply a brief amount of daze."
+  },
+  {
+    "talent_name": "Survival Kit [CHA]",
+    "category": "Master Survivalist",
+    "requirements": "Charisma: 20",
+    "description": "You keep a well-stocked set of tools on your person at all times. Your flint never runs out of uses."
+  },
+  {
+    "talent_name": "Survival Kit [INT]",
+    "category": "Master Survivalist",
+    "requirements": "Intelligence: 20",
+    "description": "You keep a well-stocked set of tools on your person at all times. Your flint never runs out of uses."
+  },
+  {
+    "talent_name": "Survival Kit [WIL]",
+    "category": "Master Survivalist",
+    "requirements": "Willpower: 20",
+    "description": "You keep a well-stocked set of tools on your person at all times. Your flint never runs out of uses."
+  },
+  {
+    "talent_name": "Breathing Exercise",
+    "category": "Mental Fortress",
+    "requirements": "Willpower: 5",
+    "description": "Your sanity recovers more quickly once out of terrifying situations."
+  },
+  {
+    "talent_name": "Conquer your Fears",
+    "category": "Mental Fortress",
+    "requirements": "Willpower: 10",
+    "description": "Killing the beings of the deep replenishes your Sanity somewhat. When an ally grips an enemy nearby to you, you regain Sanity."
+  },
+  {
+    "talent_name": "Disbelief",
+    "category": "Mental Fortress",
+    "requirements": "Willpower: 25",
+    "description": "You're resistant to the effects of Illusion magic. You are resistant to charms and tricks."
+  },
+  {
+    "talent_name": "Intuitive Repairs",
+    "category": "Metallurgist",
+    "requirements": "Ironsing: 25",
+    "description": "Your \"Iron Skin\" repairs armor while it's active."
+  },
+  {
+    "talent_name": "Metal Absorption",
+    "category": "Metallurgist",
+    "requirements": "Ironsing: 30",
+    "description": "Your 'Iron Hug' also absorbs armor from the enemy."
+  },
+  {
+    "talent_name": "Metal Eater",
+    "category": "Metallurgist",
+    "requirements": "Ironsing: 50",
+    "description": "When you have no Ether, consume armor durability to cast your Ironsing mantras."
+  },
+  {
+    "talent_name": "Metal Thief",
+    "category": "Metallurgist",
+    "requirements": "Ironsing: 50",
+    "description": "Pulling an opponent absorbs a portion of their current Armor durability."
+  },
+  {
+    "talent_name": "Polished Armor",
+    "category": "Metallurgist",
+    "requirements": "Ironsing: 75",
+    "description": "You receive 5% less damage when your Armor protects you from an attack and has over 90% durability. This 5% will scale up to 10% less damage at 100 MTL."
+  },
+  {
+    "talent_name": "Echoing Lunatic",
+    "category": "Mindbreaker",
+    "requirements": "Willpower: 55",
+    "description": "Your Ardour Scream now applies a bit of insanity."
+  },
+  {
+    "talent_name": "Shared Misery",
+    "category": "Mindbreaker",
+    "requirements": "Willpower: 85",
+    "description": "Using a Basic Attack/Critical Attack on an enemy while losing sanity causes them to lose sanity."
+  },
+  {
+    "talent_name": "Berserker",
+    "category": "Miscellaneous",
+    "requirements": "Strength: 30 | Fortitude: 35",
+    "description": "Knocking an enemy grants you 20% damage resistance for 15 seconds."
+  },
+  {
+    "talent_name": "Blinded",
+    "category": "Miscellaneous",
+    "requirements": "",
+    "description": "Your vision is obscured by something. Somehow, you feel safer. You remember the warmth of your youth."
+  },
+  {
+    "talent_name": "Dragon's Song",
+    "category": "Miscellaneous",
+    "requirements": "",
+    "description": "Landing a Mantra after an uppercut grants Ether. 2s CD."
+  },
+  {
+    "talent_name": "Full Reset",
+    "category": "Miscellaneous",
+    "requirements": "Power: 16",
+    "description": "Knocking an enemy resets your resonance cooldowns. This effect has a 60 second cooldown."
+  },
+  {
+    "talent_name": "Gourmand",
+    "category": "Miscellaneous",
+    "requirements": "Power: 5",
+    "description": "Your hunger and thirst gain from eating increased."
+  },
+  {
+    "talent_name": "Heavy Haul",
+    "category": "Miscellaneous",
+    "requirements": "Strength: 15",
+    "description": "Enemies who carry you move significantly slower."
+  },
+  {
+    "talent_name": "Martyr",
+    "category": "Miscellaneous",
+    "requirements": "Power: 3",
+    "description": "Enemies gain less health and posture when knocking you."
+  },
+  {
+    "talent_name": "Pack Mule",
+    "category": "Miscellaneous",
+    "requirements": "Fortitude: 5",
+    "description": "The max quantity for food you can hold is increased by 5."
+  },
+  {
+    "talent_name": "Pleeksty's Will",
+    "category": "Miscellaneous",
+    "requirements": "Flamecharm: 20",
+    "description": "You gain some Ether from consuming elemental ingredients."
+  },
+  {
+    "talent_name": "Polite Awakening",
+    "category": "Miscellaneous",
+    "requirements": "Power: 5",
+    "description": "Recover 15% of your max health after getting up from being downed. (Only Procs when below 20% HP)"
+  },
+  {
+    "talent_name": "Ready or Not",
+    "category": "Miscellaneous",
+    "requirements": "Power: 1 | Fortitude: 20",
+    "description": "The first attack to hit you while out of combat has its damage cut in half."
+  },
+  {
+    "talent_name": "Replenishing Knockout",
+    "category": "Miscellaneous",
+    "requirements": "Power: 3",
+    "description": "Gain more health and posture from downing enemies."
+  },
+  {
+    "talent_name": "Charisma Unbounded",
+    "category": "Mr Charm",
+    "requirements": "Charisma: 75",
+    "description": "You have gained the ability to surpass your limits and train your charisma to its fullest."
+  },
+  {
+    "talent_name": "Ardour Scream",
+    "category": "Murmur",
+    "requirements": "Strength: 15 | Willpower: 40",
+    "description": "Amplify your shout into a scream using Ardour, dominating weaker foes. Victims take 25% more damage and 50% more posture damage for 10s."
+  },
+  {
+    "talent_name": "Armor Conserver",
+    "category": "Natural Armor",
+    "requirements": "Power: 8",
+    "description": "You lose 15% less armor when hit."
+  },
+  {
+    "talent_name": "Lightweight",
+    "category": "Natural Armor",
+    "requirements": "Power: 5",
+    "description": "Move faster when your armor runs out of durability."
+  },
+  {
+    "talent_name": "Padded Armor",
+    "category": "Natural Armor",
+    "requirements": "Power: 8",
+    "description": "While your armor is broken (or if you have no armor), you take 5% less damage."
+  },
+  {
+    "talent_name": "Steel Scales",
+    "category": "Natural Armor",
+    "requirements": "Power: 8",
+    "description": "You take an additional 5% less damage when your armor is broken."
+  },
+  {
+    "talent_name": "Captain Etrea",
+    "category": "Navaen Nomad",
+    "requirements": "Strength: 30 | Fortitude: 20",
+    "description": "Moving while with a shield no longer slows you down."
+  },
+  {
+    "talent_name": "Duelist's Lunge",
+    "category": "Needle",
+    "requirements": "Light Wep.: 30",
+    "description": "[Rapier] Running Basic Attacks deal increased posture damage. Upon landing your critical, your next running Basic Attack has increased range."
+  },
+  {
+    "talent_name": "Frenzied Dance",
+    "category": "Needle",
+    "requirements": "Light Wep.: 50",
+    "description": "[Rapier] When your posture is about to collapse, you deal greater chip and posture damage."
+  },
+  {
+    "talent_name": "Pressure Skewer",
+    "category": "Needle",
+    "requirements": "Light Wep.: 40",
+    "description": "[Rapier] Flourishing an enemy causes your Basic Attacks to deal additional blood loss until you take damage."
+  },
+  {
+    "talent_name": "Fast Blade",
+    "category": "Nimble Blade",
+    "requirements": "Agility: 20",
+    "description": "Increase the speed boost you get from successfully parrying an attack."
+  },
+  {
+    "talent_name": "Speed Emission",
+    "category": "Nimble Blade",
+    "requirements": "Agility: 25",
+    "description": "Gain a slight speed boost after landing a vent."
+  },
+  {
+    "talent_name": "Intelligence Unbounded",
+    "category": "Omniscient",
+    "requirements": "Intelligence: 75",
+    "description": "You have gained the ability to surpass your limits and train your intelligence to its fullest."
+  },
+  {
+    "talent_name": "Successive Prediction",
+    "category": "Omniscient",
+    "requirements": "Intelligence: 50",
+    "description": "Predicting an attack will briefly allow you to predict another."
+  },
+  {
+    "talent_name": "Twelve Steps Ahead",
+    "category": "Omniscient",
+    "requirements": "Intelligence: 80",
+    "description": "Landing Prediction will halve the cooldown to a minimum of 2s. Whiffing will double the cooldown to a maximum of 40s. This effect stacks up for up to 30 seconds.\n[*Note: The penalty cooldown scales off of your Intelligence, with 30s at 80 Intelligence.]"
+  },
+  {
+    "talent_name": "Strength Unbounded",
+    "category": "One Eyed King",
+    "requirements": "Strength: 75",
+    "description": "You have gained the ability to surpass your limits and train your strength to its fullest."
+  },
+  {
+    "talent_name": "Lock n Load",
+    "category": "Outlaw",
+    "requirements": "Light Wep.: 60",
+    "description": "[1H Guns] The first bullet in your gun does more damage when fully loaded. This damage buff scales with the number of bullets up to 15%. After fully reloading, the last bullet in your gun will do more damage. This damage buff scales with the number of bullets up to 15%."
+  },
+  {
+    "talent_name": "Rapid Fire",
+    "category": "Outlaw",
+    "requirements": "Light Wep.: 50",
+    "description": "[1H Guns] When you land a critical shot gain the ability to rapidly fire your critical for 2s. 12s cooldown."
+  },
+  {
+    "talent_name": "Rapid Reload",
+    "category": "Outlaw",
+    "requirements": "Light Wep.: 50",
+    "description": "[1H Guns] You have 20% faster reload when reloading an empty pistol."
+  },
+  {
+    "talent_name": "Sleight of Hand",
+    "category": "Outlaw",
+    "requirements": "Light Wep.: 50",
+    "description": "[1H Guns] When you flourish an opponent, you instantly load a bullet."
+  },
+  {
+    "talent_name": "Ultrakill",
+    "category": "Outlaw",
+    "requirements": "Light Wep.: 55",
+    "description": "[1H Guns] When under the effects of Rapid Fire you reload 2x as fast. (Play Ultrakill)"
+  },
+  {
+    "talent_name": "Cult of Personality",
+    "category": "Politician",
+    "requirements": "Charisma: 90",
+    "description": "You gain +3% PEN per each person Charmed. Capping at +15% PEN."
+  },
+  {
+    "talent_name": "Pardon Me",
+    "category": "Politician",
+    "requirements": "Charisma: 85",
+    "description": "Crimes you commit in allied territories are often ignored. Who's asking?"
+  },
+  {
+    "talent_name": "Celebrity",
+    "category": "Public Figure",
+    "requirements": "Charisma: 40",
+    "description": "Your natural skill in mediating conflict makes people think more highly of you. Your base reputation with factions is higher and your reputation caps out higher."
+  },
+  {
+    "talent_name": "Under The Radar",
+    "category": "Public Figure",
+    "requirements": "Charisma: 60",
+    "description": "The negative reputation threshold for a faction to put up on bounty posters is now higher."
+  },
+  {
+    "talent_name": "You'll Need To Get Past Me",
+    "category": "Public Figure",
+    "requirements": "Charisma: 75",
+    "description": "When you're attacked, one of your many allies will leap into action to protect their boss.\n[*Note: 65s CD at 20 Charisma, 55s CD at 100 Charisma.]"
+  },
+  {
+    "talent_name": "Hungry Flames",
+    "category": "Pyromancer",
+    "requirements": "Fortitude: 15 | Flamecharm: 30",
+    "description": "When you have no Ether, consume Stomach and Water to instantly cast your next fire mantra."
+  },
+  {
+    "talent_name": "Blood Bag",
+    "category": "Quack Doctor",
+    "requirements": "Bloodrend: 20",
+    "description": "You receive extra blood from knocking an enemy."
+  },
+  {
+    "talent_name": "Just a Taste",
+    "category": "Quack Doctor",
+    "requirements": "Bloodrend: 20",
+    "description": "First bloodrend mantra you hit in combat has increased blood drain."
+  },
+  {
+    "talent_name": "Open Wound",
+    "category": "Quack Doctor",
+    "requirements": "Bloodrend: 40",
+    "description": "Guardbreaking enemies leaves enemies more susceptible to blood loss from Bloodrend mantras."
+  },
+  {
+    "talent_name": "Broken Ankles",
+    "category": "Raging Bull",
+    "requirements": "Strength: 70",
+    "description": "Blockbreaking an opponent puts their Mobility slot Mantras on CD for 12s. 30s CD"
+  },
+  {
+    "talent_name": "Shield Breaker",
+    "category": "Rampaging Brute",
+    "requirements": "Strength: 60",
+    "description": "Blunt damage now fully ignores the posture bonus from shields."
+  },
+  {
+    "talent_name": "Unwavering Resolve",
+    "category": "Rampaging Brute",
+    "requirements": "Strength: 40",
+    "description": "Getting parried punishes your posture up to 33% less.\n[*Note: 20% to 33% punishment reduction between 10 and 40 Strength.]"
+  },
+  {
+    "talent_name": "Jolting Current",
+    "category": "Rampant Static",
+    "requirements": "Thundercall: 35",
+    "description": "Your lightning attacks in water strike others near them with lightning."
+  },
+  {
+    "talent_name": "Conductor's Cable",
+    "category": "Rending Needle",
+    "requirements": "",
+    "description": "Applying Conductor rods on opponents steals some of their armor to you."
+  },
+  {
+    "talent_name": "Explosive Efficiency",
+    "category": "Saboteur",
+    "requirements": "",
+    "description": "When crafting bombs, you craft double the amount. You have the chance to triple the amount."
+  },
+  {
+    "talent_name": "Hot Potato",
+    "category": "Saboteur",
+    "requirements": "",
+    "description": "Gain a large boost of speed after throwing a bomb. Your bombs have a chance to detonate twice."
+  },
+  {
+    "talent_name": "Incendiary Formula",
+    "category": "Saboteur",
+    "requirements": "",
+    "description": "Bombs will set your enemies on fire upon detonation, as well as launch with more force. Bombs will deal 20% increased damage to burning enemies."
+  },
+  {
+    "talent_name": "Pocket Bombs",
+    "category": "Saboteur",
+    "requirements": "",
+    "description": "You have a chance to activate a bomb in your inventory when damaged."
+  },
+  {
+    "talent_name": "Sulphur Surprise",
+    "category": "Saboteur",
+    "requirements": "",
+    "description": "Your cooldown for throwing bombs will be shortened after your first bomb damages on enemy."
+  },
+  {
+    "talent_name": "Heavy Weapons Unbounded",
+    "category": "Saint of Blades",
+    "requirements": "Heavy Wep.: 75",
+    "description": "You have gained the ability to surpass your limits and train your Heavy Weapons attribute to its fullest."
+  },
+  {
+    "talent_name": "Light Weapons Unbounded",
+    "category": "Saint of Blades",
+    "requirements": "Light Wep.: 75",
+    "description": "You have gained the ability to surpass your limits and train your Light Weapons attribute to its fullest."
+  },
+  {
+    "talent_name": "Medium Weapons Unbounded",
+    "category": "Saint of Blades",
+    "requirements": "Medium Wep.: 75",
+    "description": "You have gained the ability to surpass your limits and train your Medium Weapons attribute to its fullest."
+  },
+  {
+    "talent_name": "Dark Receiver",
+    "category": "Sapper",
+    "requirements": "Thundercall: 40 | Shadowcast: 40",
+    "description": "Shadow moves will also steal Ether from those you are Static Linked tethered to."
+  },
+  {
+    "talent_name": "Blood Bank",
+    "category": "Scarlet Donor",
+    "requirements": "Charisma: 40 | Bloodrend: 80",
+    "description": "Consuming 'Charm' now gives slight temporary health."
+  },
+  {
+    "talent_name": "Donation Drive",
+    "category": "Scarlet Donor",
+    "requirements": "Charisma: 55 | Bloodrend: 50",
+    "description": "Consuming 'Charm' on an opponent replenishes some blood. Additionally, you can also activate this effect and Manipulator through blockbreaking with a Bloodrend mantra.\n[*Note: 12s to 8s CD between 20 and 60 Charisma.]"
+  },
+  {
+    "talent_name": "Sharing is Caring",
+    "category": "Scarlet Donor",
+    "requirements": "Charisma: 30 | Bloodrend: 50",
+    "description": "Your 'Charm' on opponents also slightly increases your blood drain against them."
+  },
+  {
+    "talent_name": "Pocket Sand",
+    "category": "Scoundrel",
+    "requirements": "Strength: 20 | Light Wep.: 35",
+    "description": "[Fist] Feinting into an uppercut blinds and dazes your opponents briefly. We're even now, right? 30s cooldown"
+  },
+  {
+    "talent_name": "Artisan's Blade",
+    "category": "Scrapsinger",
+    "requirements": "Ironsing: 45",
+    "description": "Activating Scrapsinger forges a metal blade behind you for every 2 rods you consume. Metal blades will fire at a target upon landing an ironsing or metal infused attack."
+  },
+  {
+    "talent_name": "Gilded Path: Scrapsinger",
+    "category": "Scrapsinger",
+    "requirements": "Ironsing: 35",
+    "description": "Flourishing an enemy consumes any rods they have and siphones their armor to you per rod."
+  },
+  {
+    "talent_name": "Refine and Reuse",
+    "category": "Scrapsinger",
+    "requirements": "Ironsing: 45",
+    "description": "Consuming rods with Scrapsinger reduces incoming PEN against you for 14 seconds. Each rod reduces PEN by 5% multiplicatively."
+  },
+  {
+    "talent_name": "Songs Unforged",
+    "category": "Scrapsinger",
+    "requirements": "Ironsing: 50",
+    "description": "Your weapon criticals will now activate Scrapsinger"
+  },
+  {
+    "talent_name": "Jumpstart",
+    "category": "Self-Shocker",
+    "requirements": "Thundercall: 35",
+    "description": "Using Static Withdraw when not being carried applies Jumpstart, increasing your ability to scale walls, your speed and applies shock to all outgoing physical damage and damage taken. Grants a +10% damage multiplier."
+  },
+  {
+    "talent_name": "Raging Static",
+    "category": "Self-Shocker",
+    "requirements": "Thundercall: 35",
+    "description": "Your Jumpstart no longer gives you movement buffs, but your outgoing physical damage is increased up to 20%. The self damage to activate it is lowered. Your cooldown on Jumpstart is also lowered."
+  },
+  {
+    "talent_name": "Hemolysis",
+    "category": "Septicemia",
+    "requirements": "Strength: 25 | Bloodrend: 40",
+    "description": "Deal 20% more critical attack damage to opponents with over 25% blood poisoning."
+  },
+  {
+    "talent_name": "Hemolytic Transfusion",
+    "category": "Septicemia",
+    "requirements": "Bloodrend: 65",
+    "description": "Guardbreaking an enemy with a Bloodrend mantra increases the amount of blood poison from the attack."
+  },
+  {
+    "talent_name": "Juicy Snack",
+    "category": "Septicemia",
+    "requirements": "Fortitude: 20 | Bloodrend: 60",
+    "description": "Eliminating enemies returns their amount of blood poision as health to you."
+  },
+  {
+    "talent_name": "Tainted Ground",
+    "category": "Septicemia",
+    "requirements": "Bloodrend: 30",
+    "description": "Enemies who stand in blood pools will not decay blood poison."
+  },
+  {
+    "talent_name": "Vasculitis",
+    "category": "Septicemia",
+    "requirements": "Intelligence: 35 | Bloodrend: 40",
+    "description": "Your opponent cannot proc deep gems if they have over 20% blood poisoning for a brief duration. *Must hit them while they are over 20% BP.)"
+  },
+  {
+    "talent_name": "Shadowcast Unbounded",
+    "category": "Shadowcast Master",
+    "requirements": "Shadowcast: 75",
+    "description": "You have gained the ability to surpass your limits and train your shadowcast to its fullest.\n[Note: Falling below 75 Shadowcast revokes this Talent.]"
+  },
+  {
+    "talent_name": "Blossoming Darkness",
+    "category": "Shadowcaster",
+    "requirements": "Shadowcast: 30",
+    "description": "Ether drained during Shadow Roar increases the size of it."
+  },
+  {
+    "talent_name": "Fear the Dark",
+    "category": "Shadowcaster",
+    "requirements": "Shadowcast: 50",
+    "description": "Enemies that run from you after being hit by your shadows will hang in place briefly."
+  },
+  {
+    "talent_name": "Lasting Sorrow",
+    "category": "Shadowcaster",
+    "requirements": "Shadowcast: 50",
+    "description": "Shadow lasts longer on your opponent."
+  },
+  {
+    "talent_name": "Sightless Still",
+    "category": "Shadowcaster",
+    "requirements": "Shadowcast: 30",
+    "description": "The more a person is affected by your shadowcast the more you obscure their vision. Block breaking an opponent obscures their vision with darkness more potent than your Shadow mantra."
+  },
+  {
+    "talent_name": "Singularity",
+    "category": "Shadowcaster",
+    "requirements": "Shadowcast: 40",
+    "description": "Enemies will briefly hang in place when hit by a shadow move."
+  },
+  {
+    "talent_name": "Shadowcaster",
+    "category": "Shadowcaster",
+    "requirements": "Shadowcast: 1",
+    "description": "Harnesss the power of Shadow in your mantra crafting."
+  },
+  {
+    "talent_name": "Adept Shadowcaster",
+    "category": "Shadowcaster",
+    "requirements": "Shadowcast: 20",
+    "description": "You can now obtain 1-Star Leveled Shadowcaster Mantras."
+  },
+  {
+    "talent_name": "Expert Shadowcaster",
+    "category": "Shadowcaster",
+    "requirements": "Shadowcast: 30",
+    "description": "You can now obtain 2-Star Leveled Shadowcaster Mantras."
+  },
+  {
+    "talent_name": "Master Shadowcaster",
+    "category": "Shadowcaster",
+    "requirements": "Shadowcast: 50",
+    "description": "You can now obtain 3-Star Leveled Shadowcaster Mantras."
+  },
+  {
+    "talent_name": "Knight's Rally",
+    "category": "Shieldmaster",
+    "requirements": "Fortitude: 30 | Willpower: 10",
+    "description": "When using a shield, you ready your block more quickly after taking a hit."
+  },
+  {
+    "talent_name": "Turtle Shell",
+    "category": "Shieldmaster",
+    "requirements": "Fortitude: 50",
+    "description": "If your shield is on your back, take reduced backstab damage and negate Spine Cutter."
+  },
+  {
+    "talent_name": "Emergency Repairs",
+    "category": "Shipwright",
+    "requirements": "",
+    "description": "Your repairs are twice as efficient when the ship is on low health. Your repairs scale somewhat with the Max Health of the ship."
+  },
+  {
+    "talent_name": "Spare Nails",
+    "category": "Shipwright",
+    "requirements": "",
+    "description": "You always keep a couple spare. Your repairs are more efficient and you no longer drop Wood on death."
+  },
+  {
+    "talent_name": "Unnecessary Theatrics",
+    "category": "Showboater",
+    "requirements": "Charisma: 75",
+    "description": "Deliver a one-liner on uppercuts, flourishes, and critical attacks that charms your opponents briefly."
+  },
+  {
+    "talent_name": "Friends in High Places",
+    "category": "Silvertongue",
+    "requirements": "Charisma: 20",
+    "description": "Your connections often let you off the hook when you're in trouble with the law. Nepotism sure does pay!"
+  },
+  {
+    "talent_name": "Snake Oil",
+    "category": "Silvertongue",
+    "requirements": "Charisma: 30",
+    "description": "Okay, the amount you're charging people for your items is downright criminal. But I'm just a talent description, I can't stop you."
+  },
+  {
+    "talent_name": "Apparitions",
+    "category": "Specter",
+    "requirements": "Galebreathe: 50",
+    "description": "Your Haunted Phantoms become Apparitions that apply Winded on hit. Apparitions cannot be parried if you are in Phantom Step."
+  },
+  {
+    "talent_name": "Haunted Path: Specter",
+    "category": "Specter",
+    "requirements": "Galebreathe: 50",
+    "description": "Build up spectral energy by performing successful dodges and landing Wind mantras. Phantom winds from Haunted Gale no longer appear. You can no longer suffocate enemies."
+  },
+  {
+    "talent_name": "Phantom Step",
+    "category": "Specter",
+    "requirements": "Galebreathe: 55",
+    "description": "Press X to begin running at high speeds and your regular dashes transform into gale dashes. (Must have at least 10% Spectral Gauge)"
+  },
+  {
+    "talent_name": "Link Conduction",
+    "category": "Static Weaver",
+    "requirements": "Intelligence: 15 | Thundercall: 65",
+    "description": "While you have active tethers your lightning mantras cost less ether."
+  },
+  {
+    "talent_name": "Jumper Cables",
+    "category": "Static Weaver",
+    "requirements": "Fortitude: 20 | Thundercall: 40",
+    "description": "Getting knocked with an active tether allows you to steal health from tethered targets and not get knocked."
+  },
+  {
+    "talent_name": "Static Ace",
+    "category": "Static Weaver",
+    "requirements": "Intelligence: 15 | Thundercall: 70",
+    "description": "Using Lightning Stream with an active tether targets your closest active link."
+  },
+  {
+    "talent_name": "Static Allure",
+    "category": "Static Weaver",
+    "requirements": "Intelligence: 15 | Thundercall: 50",
+    "description": "Having two active tethers will cause the previous tethered enemy to get magnetized to your newest tethered enemy, also increases the duration of tethers by 15 seconds."
+  },
+  {
+    "talent_name": "Static Link",
+    "category": "Static Weaver",
+    "requirements": "Intelligence: 15 | Thundercall: 40",
+    "description": "Flourishing or uppercutting an enemy creates a static link between you and your enemy."
+  },
+  {
+    "talent_name": "Storm Link",
+    "category": "Stormcaller",
+    "requirements": "Thundercall: 60 | Galebreathe: 50",
+    "description": "While you have a Static Link on someone, your Wind mantras that hit them are imbued with flashes of Lightning."
+  },
+  {
+    "talent_name": "Grasp on Reality",
+    "category": "Sturdy Resolve",
+    "requirements": "Fortitude: 25 | Willpower: 5",
+    "description": "Damage taken from insanity is reduced."
+  },
+  {
+    "talent_name": "Magical Resolve",
+    "category": "Sturdy Resolve",
+    "requirements": "Fortitude: 15 | Willpower: 40",
+    "description": "Being hit increases Ether regen for a short duration, the strength of the regen scales off your Willpower."
+  },
+  {
+    "talent_name": "Unfazed",
+    "category": "Sturdy Resolve",
+    "requirements": "Fortitude: 50 | Willpower: 50",
+    "description": "You are more resilient to the side effects of going insane. You no longer Shiver and you Panic with less severity."
+  },
+  {
+    "talent_name": "Voltaic Conductor",
+    "category": "Superconductor",
+    "requirements": "Thundercall: 40 | Ironsing: 75",
+    "description": "Your Thundercall Mantras deal 20% chip damage against enemies with conductor rods."
+  },
+  {
+    "talent_name": "Iron Gut [FORT]",
+    "category": "Survival Instinct",
+    "requirements": "Fortitude: 20",
+    "description": "You have resistance against being poisoned by foods."
+  },
+  {
+    "talent_name": "Iron Gut [WILL]",
+    "category": "Survival Instinct",
+    "requirements": "Willpower: 20",
+    "description": "You have resistance against being poisoned by foods."
+  },
+  {
+    "talent_name": "Termite",
+    "category": "Survival Instinct",
+    "requirements": "Fortitude: 20 | Willpower: 10",
+    "description": "You can eat things most would consider inedible."
+  },
+  {
+    "talent_name": "None Left Behind",
+    "category": "Swiftshade",
+    "requirements": "Agility: 100",
+    "description": "You can now shadestep to pick up knocked humanoids far away from you. 4s CD."
+  },
+  {
+    "talent_name": "Foolish Outburst",
+    "category": "Tactician",
+    "requirements": "Intelligence: 50",
+    "description": "Blocking or parrying a vent will absorb the Tempo cost of the vent. A Tactician steadies the course of battle.\n[*Absorbs 20% to 40% of the vent's Tempo between 20 INT and 50 INT.]"
+  },
+  {
+    "talent_name": "Hard Read",
+    "category": "Tactician",
+    "requirements": "Intelligence: 20",
+    "description": "Hitting your opponent during a feint will cause them to be dazed."
+  },
+  {
+    "talent_name": "Target Switch",
+    "category": "Tactician",
+    "requirements": "Intelligence: 20",
+    "description": "Parrying an opponent then hitting someone else makes your next mantra free."
+  },
+  {
+    "talent_name": "Water off a Duck's Back",
+    "category": "Tactician",
+    "requirements": "Intelligence: 50",
+    "description": "Venting will shift any elemental status effects affecting you onto those hit by your vent. Will also remove potion splash statuses on vent."
+  },
+  {
+    "talent_name": "Controlled Combustion",
+    "category": "Tamed Flame",
+    "requirements": "Charisma: 40",
+    "description": "Your Agitating Spark no longer spreads to your allies. All-Consuming Flame no longer applies against allies."
+  },
+  {
+    "talent_name": "Artisan Chef",
+    "category": "Tavernkeep",
+    "requirements": "Intelligence: 25 | Charisma: 15",
+    "description": "The food you cook now becomes Artisan food, increasing it's hunger and thirst gained by +25%."
+  },
+  {
+    "talent_name": "Master Chef",
+    "category": "Tavernkeep",
+    "requirements": "Intelligence: 25 | Charisma: 15",
+    "description": "Buffs applied by food you cook now have their buffs amplified by +30%."
+  },
+  {
+    "talent_name": "Explosive Finish",
+    "category": "The Demon Blade",
+    "requirements": "Flamecharm: 45",
+    "description": "If an enemy is on fire when you flourish, blast them away with a fire blast."
+  },
+  {
+    "talent_name": "Flaming Flourish",
+    "category": "The Demon Blade",
+    "requirements": "Flamecharm: 30",
+    "description": "Set enemies on fire when you flourish or uppercut them."
+  },
+  {
+    "talent_name": "Emperor Flame",
+    "category": "The Emperor's Blade",
+    "requirements": "Flamecharm: 60",
+    "description": "Absorb fire produced by you, once you reach 5 stacks your next attack will be an automatic Explosive Finish flourish."
+  },
+  {
+    "talent_name": "Last Second Negotiations",
+    "category": "The Negotiator",
+    "requirements": "Charisma: 55",
+    "description": "Most enemies will hesitate a moment longer before executing you."
+  },
+  {
+    "talent_name": "Cap Artist",
+    "category": "Thief",
+    "requirements": "Agility: 25 | Charisma: 5",
+    "description": "Pressing [R] while crouching allows you to fake being dead."
+  },
+  {
+    "talent_name": "Master Thief",
+    "category": "Thief",
+    "requirements": "Charisma: 25",
+    "description": "Gain more notes when mugging a player."
+  },
+  {
+    "talent_name": "Pickpocket",
+    "category": "Thief",
+    "requirements": "Agility: 5 | Charisma: 10",
+    "description": "Gain the ability to pickpocket by pressing \"N\" on a downed person."
+  },
+  {
+    "talent_name": "Discharge",
+    "category": "Thunder Brawler",
+    "requirements": "Light Wep.: 20 | Thundercall: 15",
+    "description": "[Light Weapons] On 5th successfull attack you will discharge static dealing lightning damage to those nearby."
+  },
+  {
+    "talent_name": "Windup Battery",
+    "category": "Thunder Caster",
+    "requirements": "Intelligence: 30 | Thundercall: 30",
+    "description": "Landing 3 Thundercall Mantras without whiffing reduces the windup of your next Mantra by 10%."
+  },
+  {
+    "talent_name": "Rain of Static",
+    "category": "Thunder Caster",
+    "requirements": "Thundercall: 30",
+    "description": "After successfully casting lightning impact, strike down countless thunder at those below. In return your Lightning Impact will require more time to cast."
+  },
+  {
+    "talent_name": "Gathering Electricity [AGL]",
+    "category": "Thunderblade",
+    "requirements": "Agility: 25 | Thundercall: 65",
+    "description": "[Medium Weapons] Reaching 5 Static Blade charges automatically consumes the stacks and applies a lightning buff to your weapon. 60 second cooldown."
+  },
+  {
+    "talent_name": "Gathering Electricity [STR]",
+    "category": "Thunderblade",
+    "requirements": "Strength: 25 | Thundercall: 65",
+    "description": "[Medium Weapons] Reaching 5 Static Blade charges automatically consumes the stacks and applies a lightning buff to your weapon. 60 second cooldown."
+  },
+  {
+    "talent_name": "Overcharge",
+    "category": "Thunderblade",
+    "requirements": "Thundercall: 45",
+    "description": "Your next dash after activating Static Blade is enhanced by lightning."
+  },
+  {
+    "talent_name": "Static Blade",
+    "category": "Thunderblade",
+    "requirements": "Medium Wep.: 20 | Thundercall: 40",
+    "description": "[Medium Weapons] Hitting blocks or blocking or parrying hits will now generate an electric chage in your blade, granting a small speed buff. Charges can stack up to 5 times."
+  },
+  {
+    "talent_name": "Thundercall Unbounded",
+    "category": "Thundercall Master",
+    "requirements": "Thundercall: 75",
+    "description": "You have gained the ability to surpass your limits and train your thundercall to its fullest.\n[Note: Falling below 75 Thundercall revokes this Talent.]"
+  },
+  {
+    "talent_name": "Discovery of Fire",
+    "category": "Thundercaller",
+    "requirements": "Thundercall: 50",
+    "description": "Flints and Flamecharm are for simpletons."
+  },
+  {
+    "talent_name": "Shocking Finish",
+    "category": "Thundercaller",
+    "requirements": "Thundercall: 30",
+    "description": "Following a flourish up with a lightning beam causes it to be casted instantly."
+  },
+  {
+    "talent_name": "Static Flash Clone",
+    "category": "Thundercaller",
+    "requirements": "Agility: 30 | Thundercall: 35",
+    "description": "When using lightning clones you disappear leaving behind a static clone for a short duration."
+  },
+  {
+    "talent_name": "Static Withdraw",
+    "category": "Thundercaller",
+    "requirements": "Thundercall: 25",
+    "description": "When being carried use this talent to shock your captor, forcing them to drop you. Bodies of knocked enemies will be charged with electricity which will stun people who attempt to carry them."
+  },
+  {
+    "talent_name": "Stratoshock",
+    "category": "Thundercaller",
+    "requirements": "Thundercall: 35",
+    "description": "Your lightning deals an additional 5% damage when in the rain."
+  },
+  {
+    "talent_name": "Thundercaller",
+    "category": "Thundercaller",
+    "requirements": "Thundercall: 1",
+    "description": "Grants you the ability to command Lightning as a Thundercaller."
+  },
+  {
+    "talent_name": "Adept Thundercaller",
+    "category": "Thundercaller",
+    "requirements": "Thundercall: 20",
+    "description": "You can now obtain 1-star Thundercaller mantras."
+  },
+  {
+    "talent_name": "Expert Thundercaller",
+    "category": "Thundercaller",
+    "requirements": "Thundercall: 30",
+    "description": "You can now obtain 2-star Thundercaller mantras."
+  },
+  {
+    "talent_name": "Master Thundercaller",
+    "category": "Thundercaller",
+    "requirements": "Thundercall: 50",
+    "description": "You can now obtain 3-star Thundercaller mantras."
+  },
+  {
+    "talent_name": "Manipulator",
+    "category": "Toxic Personality",
+    "requirements": "Charisma: 60",
+    "description": "Deal 20% more critical attack damage to charmed enemies, but the effect is removed on impact."
+  },
+  {
+    "talent_name": "Narcissist",
+    "category": "Toxic Personality",
+    "requirements": "Charisma: 60",
+    "description": "Charming an already Charmed opponent Overcharms you briefly. Guess you really were always that great."
+  },
+  {
+    "talent_name": "Cyclical Exsanguination",
+    "category": "Transitory Vitality",
+    "requirements": "Bloodrend: 65",
+    "description": "Whenever you deal more than 20 damage to an enemy in an instance, pause your temporary health decay for 3 seconds."
+  },
+  {
+    "talent_name": "Embolism",
+    "category": "Transitory Vitality",
+    "requirements": "Bloodrend: 65",
+    "description": "If an enemy is guardbroken while you have temporary health, convert your temporary health into additional damage."
+  },
+  {
+    "talent_name": "Hypovolemic Focus",
+    "category": "Transitory Vitality",
+    "requirements": "Bloodrend: 65",
+    "description": "While you have temporary health, your opponent regains far less posture from parrying you."
+  },
+  {
+    "talent_name": "Down Comes the Claw",
+    "category": "Trickster",
+    "requirements": "Agility: 75",
+    "description": "Landing a Critical while you have a speed boost prevents your opponent from being able to dodge twice in a row for up to 6.5s.\n[*Note: 4s to 6.5s duration between 30 and 75 Agility.]"
+  },
+  {
+    "talent_name": "Maiming Claws",
+    "category": "Trickster",
+    "requirements": "Agility: 100",
+    "description": "Down Comes the Claw now disables your opponents posture regeneration for 6s on proc."
+  },
+  {
+    "talent_name": "Pursuit",
+    "category": "Trickster",
+    "requirements": "Agility: 90",
+    "description": "If you land your Revenge, clear the cooldown immediately.\n[*Note: 35s to 25s cooldown between 50 and 90 Agility.]"
+  },
+  {
+    "talent_name": "Burning Puppets",
+    "category": "Twisted Puppets",
+    "requirements": "Flamecharm: 40 | Shadowcast: 40",
+    "description": "Your puppets can now inflict burn and fire-based talents when they explode."
+  },
+  {
+    "talent_name": "Explosive Rage",
+    "category": "Twisted Puppets",
+    "requirements": "Flamecharm: 40 | Shadowcast: 40",
+    "description": "Causing explosions will make your puppets go into a frenzy - speeding up and dealing slightly more damage."
+  },
+  {
+    "talent_name": "Moths to a Flame",
+    "category": "Twisted Puppets",
+    "requirements": "Flamecharm: 40 | Shadowcast: 40",
+    "description": "Your Twisted Puppets now home towards burning enemies."
+  },
+  {
+    "talent_name": "Wraith Path: Twisted Puppets",
+    "category": "Twisted Puppets",
+    "requirements": "Flamecharm: 40 | Shadowcast: 40",
+    "description": "Your Flamecharm mantras summon puppets of shadow and flame. Your flames are now black."
+  },
+  {
+    "talent_name": "No Survivors",
+    "category": "Tyrant",
+    "requirements": "Strength: 45 | Charisma: 80",
+    "description": "Your allies and yourself execute faster while affected by Overcharm."
+  },
+  {
+    "talent_name": "Battery Sapper",
+    "category": "Unstable Capacitor",
+    "requirements": "Thundercall: 60 | Shadowcast: 25",
+    "description": "If your Human Battery targets have Ether, it will drain their Ether to help pay for your Mantras. 10s Cd"
+  },
+  {
+    "talent_name": "Catalytic Strike",
+    "category": "Unstable Capacitor",
+    "requirements": "Thundercall: 50",
+    "description": "Posture breaking an enemy will Overload their Surge stacks."
+  },
+  {
+    "talent_name": "Closed Circuit",
+    "category": "Unstable Capacitor",
+    "requirements": "Thundercall: 50",
+    "description": "Surge Overloads that fail to arc to other opponents will deal additional damage to the Overloaded enemy."
+  },
+  {
+    "talent_name": "Fried Circuits",
+    "category": "Unstable Capacitor",
+    "requirements": "Thundercall: 60",
+    "description": "Overloading an enemy applies Sapped for 5s."
+  },
+  {
+    "talent_name": "Human Battery",
+    "category": "Unstable Capacitor",
+    "requirements": "Thundercall: 60",
+    "description": "When you're out of Ether, convert the Surge stacks of nearby enemies into Ether to pay the cost of your Mantras."
+  },
+  {
+    "talent_name": "Surge Path: Unstable Capacitor",
+    "category": "Unstable Capacitor",
+    "requirements": "Thundercall: 40",
+    "description": "Your lightning no longer applies Shock, instead applying Surge. At maximum statics of Surge, your opponents will Overload, sending arcs of lightning in every direction."
+  },
+  {
+    "talent_name": "Flashboil",
+    "category": "Vaporborne",
+    "requirements": "Flamecharm: 30 | Frostdraw: 30",
+    "description": "Landing Ice/Fire attacks on burning/chilled enemies extinquishes the flame and generates steam."
+  },
+  {
+    "talent_name": "Boiling Point",
+    "category": "Vaporborne",
+    "requirements": "Flamecharm: 30 | Frostdraw: 30",
+    "description": "Using a fire mantra near your own steam detonates it."
+  },
+  {
+    "talent_name": "Action Surge",
+    "category": "Vigil Swordsman",
+    "requirements": "Agility: 70",
+    "description": "Adrenaline Surge now increases your swing speed by 0.04s for its duration."
+  },
+  {
+    "talent_name": "Bear Trap",
+    "category": "Vigil Swordsman",
+    "requirements": "Strength: 20 | Agility: 20",
+    "description": "Landing a hit with your critical makes your opponent unable to jump for a duration. Also slows your opponent."
+  },
+  {
+    "talent_name": "Blade Dancer",
+    "category": "Vigil Swordsman",
+    "requirements": "Agility: 25",
+    "description": "Landing an Basic Attack removes your roll cooldown."
+  },
+  {
+    "talent_name": "Spinning Swordsman",
+    "category": "Vigil Swordsman",
+    "requirements": "Agility: 20",
+    "description": "Running attacks do 15% extra damage when you have a speed boost."
+  },
+  {
+    "talent_name": "Propagandist",
+    "category": "Vocalist",
+    "requirements": "Charisma: 75",
+    "description": "Your Sing will now stir your allies into a frenzy, causing them to become Overcharmed for 15s, applying Charmed to enemies they hit with basic attacks."
+  },
+  {
+    "talent_name": "Command: Live",
+    "category": "Vow of Mastery",
+    "requirements": "Charisma: 75",
+    "description": "Once per hour, command a servant to defy all odds and obey your command - live.\n[*The cooldown for this Talent scales on your Charisma investment.]"
+  },
+  {
+    "talent_name": "Vow of Mastery",
+    "category": "Vow of Mastery",
+    "requirements": "Charisma: 20",
+    "description": "The Vow of Mastery grants the Master the power to command their Subject. To initiate a vow, you must ask the other player if they'd like to make the vow.e.g.\"wanna make a vow of mastery?\""
+  },
+  {
+    "talent_name": "Conditioned Swimmer",
+    "category": "Waterborne",
+    "requirements": "",
+    "description": "You lose less hunger and thirst while swimming."
+  },
+  {
+    "talent_name": "Brutal Momentum",
+    "category": "Weapon Master",
+    "requirements": "Heavy Wep.: 50",
+    "description": "[Heavy Weapons] Successfully dodging will give you hyperarmour on your next swing."
+  },
+  {
+    "talent_name": "Matador",
+    "category": "Weapon Master",
+    "requirements": "Strength: 20 | Agility: 5",
+    "description": "Deal +20% more damage to human enemies with hyperarmor."
+  },
+  {
+    "talent_name": "Warrior's Swing",
+    "category": "Weapon Master",
+    "requirements": "Heavy Wep.: 30",
+    "description": "Reduces incoming damage if hit during Heavy swing hyper armor."
+  },
+  {
+    "talent_name": "Haunted Gale",
+    "category": "Whisper",
+    "requirements": "Power: 8 | Galebreathe: 40",
+    "description": "Landing 3 Galebreathe Mantras without whiffing calls forth a Haunted Phantom. The Phantom will attack alongside you for the next 8s before dissipating."
+  },
+  {
+    "talent_name": "Dark Waltz [LHT]",
+    "category": "Darksiphon",
+    "requirements": "Light Wep.: 90 | Shadowcast: 90",
+    "description": "Anytime you guardbreak your opponent with a light attack or critical, steal half of your opponent's current tempo."
+  },
+  {
+    "talent_name": "Dark Waltz [MED]",
+    "category": "Darksiphon",
+    "requirements": "Medium Wep.: 90 | Shadowcast: 90",
+    "description": "Anytime you guardbreak your opponent with a light attack or critical, steal half of your opponent's current tempo."
+  },
+  {
+    "talent_name": "Dark Waltz [HVY]",
+    "category": "Darksiphon",
+    "requirements": "Heavy Wep.: 90 | Shadowcast: 90",
+    "description": "Anytime you guardbreak your opponent with a light attack or critical, steal half of your opponent's current tempo."
+  },
+  {
+    "talent_name": "Night Terror [LHT]",
+    "category": "Darksiphon",
+    "requirements": "Light Wep.: 100 | Shadowcast: 100",
+    "description": "Your light attacks and criticals now proc Fear the Dark."
+  },
+  {
+    "talent_name": "Night Terror [MED]",
+    "category": "Darksiphon",
+    "requirements": "Medium Wep.: 100 | Shadowcast: 100",
+    "description": "Your light attacks and criticals now proc Fear the Dark."
+  },
+  {
+    "talent_name": "Night Terror [HVY]",
+    "category": "Darksiphon",
+    "requirements": "Heavy Wep.: 100 | Shadowcast: 100",
+    "description": "Your light attacks and criticals now proc Fear the Dark."
+  },
+  {
+    "talent_name": "Ash Ember [LHT]",
+    "category": "Withered Flame",
+    "requirements": "Light Wep.: 90 | Flamecharm: 90",
+    "description": "The more wither your opponent has the more damage your burn deals."
+  },
+  {
+    "talent_name": "Ash Ember [MED]",
+    "category": "Withered Flame",
+    "requirements": "Medium Wep.: 90 | Flamecharm: 90",
+    "description": "The more wither your opponent has the more damage your burn deals."
+  },
+  {
+    "talent_name": "Ash Ember [HVY]",
+    "category": "Withered Flame",
+    "requirements": "Heavy Wep.: 90 | Flamecharm: 90",
+    "description": "The more wither your opponent has the more damage your burn deals."
+  },
+  {
+    "talent_name": "Scorching Decay [LHT]",
+    "category": "Withered Flame",
+    "requirements": "Light Wep.: 100 | Flamecharm: 100",
+    "description": "The wither dealt from your Emperor's Flame is massively increased."
+  },
+  {
+    "talent_name": "Scorching Decay [MED]",
+    "category": "Withered Flame",
+    "requirements": "Medium Wep.: 100 | Flamecharm: 100",
+    "description": "The wither dealt from your Emperor's Flame is massively increased."
+  },
+  {
+    "talent_name": "Scorching Decay [HVY]",
+    "category": "Withered Flame",
+    "requirements": "Heavy Wep.: 100 | Flamecharm: 100",
+    "description": "The wither dealt from your Emperor's Flame is massively increased."
+  },
+  {
+    "talent_name": "Grounding Bolt [LHT]",
+    "category": "Shock Therapy",
+    "requirements": "Light Wep.: 90 | Thundercall: 90",
+    "description": "Anytime you summon a lightning strike on your opponent, apply knockdown if it lands."
+  },
+  {
+    "talent_name": "Grounding Bolt [MED]",
+    "category": "Shock Therapy",
+    "requirements": "Medium Wep.: 90 | Thundercall: 90",
+    "description": "Anytime you summon a lightning strike on your opponent, apply knockdown if it lands."
+  },
+  {
+    "talent_name": "Grounding Bolt [HVY]",
+    "category": "Shock Therapy",
+    "requirements": "Heavy Wep.: 90 | Thundercall: 90",
+    "description": "Anytime you summon a lightning strike on your opponent, apply knockdown if it lands."
+  },
+  {
+    "talent_name": "Frozen Anchor [LHT]",
+    "category": "Ice Age",
+    "requirements": "Light Wep.: 100 | Frostdraw: 100",
+    "description": "Apply bottom freeze and chill to your opponent whenever you land a flourish, uppercut, or crit. 10s CD."
+  },
+  {
+    "talent_name": "Frozen Anchor [MED]",
+    "category": "Ice Age",
+    "requirements": "Medium Wep.: 100 | Frostdraw: 100",
+    "description": "Apply bottom freeze and chill to your opponent whenever you land a flourish, uppercut, or crit. 10s CD."
+  },
+  {
+    "talent_name": "Frozen Anchor [HVY]",
+    "category": "Ice Age",
+    "requirements": "Heavy Wep.: 100 | Frostdraw: 100",
+    "description": "Apply bottom freeze and chill to your opponent whenever you land a flourish, uppercut, or crit. 10s CD."
+  },
+  {
+    "talent_name": "Stasis Strike [LHT]",
+    "category": "Ice Age",
+    "requirements": "Light Wep.: 90 | Frostdraw: 90",
+    "description": "Your crystal explosions deal more damage whenever your opponent is also bottom frozen."
+  },
+  {
+    "talent_name": "Stasis Strike [MED]",
+    "category": "Ice Age",
+    "requirements": "Medium Wep.: 90 | Frostdraw: 90",
+    "description": "Your crystal explosions deal more damage whenever your opponent is also bottom frozen."
+  },
+  {
+    "talent_name": "Stasis Strike [HVY]",
+    "category": "Ice Age",
+    "requirements": "Heavy Wep.: 90 | Frostdraw: 90",
+    "description": "Your crystal explosions deal more damage whenever your opponent is also bottom frozen."
+  },
+  {
+    "talent_name": "Golden Age",
+    "category": "Crystalline Gold",
+    "requirements": "",
+    "description": "Your Iron Pull now detonates Crystals and overloads Surges."
+  },
+  {
+    "talent_name": "Critical Engine [MED]",
+    "category": "Intellisense",
+    "requirements": "Intelligence: 90 | Medium Wep.: 30",
+    "description": "You gain the ability to use Deep Gems on your critical attack. Hold out the Deep Gem you wish to apply to your crit and then use the tool to enhance your critical."
+  },
+  {
+    "talent_name": "Critical Engine [HVY]",
+    "category": "Intellisense",
+    "requirements": "Intelligence: 90 | Heavy Wep.: 30",
+    "description": "You gain the ability to use Deep Gems on your critical attack. Hold out the Deep Gem you wish to apply to your crit and then use the tool to enhance your critical."
+  },
+  {
+    "talent_name": "Critical Engine [LHT]",
+    "category": "Intellisense",
+    "requirements": "Intelligence: 90 | Light Wep.: 30",
+    "description": "You gain the ability to use Deep Gems on your critical attack. Hold out the Deep Gem you wish to apply to your crit and then use the tool to enhance your critical."
+  },
+  {
+    "talent_name": "Unwavering Focus",
+    "category": "Ether Endeavors",
+    "requirements": "Strength: 10 | Intelligence: 60",
+    "description": "Receive less posture when parrying a mantra (scales with intelligence)."
+  },
+  {
+    "talent_name": "Silencer's Song [LHT]",
+    "category": "Unknown",
+    "requirements": "Light Wep.: 100 | Galebreathe: 100",
+    "description": "Silencer's Blade now procs on your mantras."
+  },
+  {
+    "talent_name": "Silencer's Song [MED]",
+    "category": "Unknown",
+    "requirements": "Medium Wep.: 100 | Galebreathe: 100",
+    "description": "Silencer's Blade now procs on your mantras."
+  },
+  {
+    "talent_name": "Silencer's Song [HVY]",
+    "category": "Unknown",
+    "requirements": "Heavy Wep.: 100 | Galebreathe: 100",
+    "description": "Silencer's Blade now procs on your mantras."
+  },
+  {
+    "talent_name": "Finishing Slay",
+    "category": "Weapon",
+    "requirements": "",
+    "description": "If you land a critical attack while also having stacks from the Chain of Perfection talent, consume all those for a massive damaging attack. This works on other players as well."
+  },
+  {
+    "talent_name": "Blitz",
+    "category": "Weapon",
+    "requirements": "",
+    "description": "Increase how quick you release your Prominence Draw."
+  },
+  {
+    "talent_name": "Belief",
+    "category": "Weapon",
+    "requirements": "",
+    "description": "Your medium weapon mantras now deal extra damage based on how much Willpower you have."
+  },
+  {
+    "talent_name": "Vital Wound",
+    "category": "Weapon",
+    "requirements": "",
+    "description": "Uppercutting your opponent punctures their lungs, slowing their rate of posture recovery for 10 seconds."
+  },
+  {
+    "talent_name": "Rosen's Technique",
+    "category": "Weapon",
+    "requirements": "",
+    "description": "If you use Tactical Reload, Rosen's Peacemaker has 30 seconds less off its cooldown."
+  },
+  {
+    "talent_name": "Expeditious Combo",
+    "category": "Weapon",
+    "requirements": "",
+    "description": "Landing an uppercut will grant you a buff to your Onslaught for 15 seconds, using Onslaught during this time will massively increase the speed of it."
+  },
+  {
+    "talent_name": "Sovereign's Counter",
+    "category": "Weapon",
+    "requirements": "",
+    "description": "Improve the efficiency of every counter you use. This effect becomes stronger for Punishment if you have the Riot Breaker talent."
+  },
+  {
+    "talent_name": "Bulwark Breaker",
+    "category": "Weapon",
+    "requirements": "",
+    "description": "Increase the size of your Pressure Blast, with the last hit of it dealing increased posture damage."
+  },
+  {
+    "talent_name": "Punishing Riposte",
+    "category": "Weapon",
+    "requirements": "",
+    "description": "When parrying a guardbreak, enhance your critical for the next 4 seconds. If you land your crit on your opponent's block while it is enhanced, immediately guardbreak your opponent."
+  },
+  {
+    "talent_name": "Cruel Counter",
+    "category": "Weapon",
+    "requirements": "",
+    "description": "When using your initial charge up critical on your Krulian Knife, if you interrupt someone's attack with it apply Cruel Counter on them, massively increasing the damage they take from your critical attacks."
+  },
+  {
+    "talent_name": "Assassin's Strike",
+    "category": "Weapon",
+    "requirements": "",
+    "description": "Your Rapid Slashes now deals twice the amount of damage."
+  },
+  {
+    "talent_name": "Battle Frenzy",
+    "category": "Weapon",
+    "requirements": "",
+    "description": "The grip on your weapon tightens, reduce the posture of all mantras you block with this effect scaling with the number of combat tags you have on your character."
+  },
+  {
+    "talent_name": "Curved Edge",
+    "category": "Weapon",
+    "requirements": "",
+    "description": "Your light weapon mantras now gain 30% more chip."
+  },
+  {
+    "talent_name": "Oath: Arcwarder",
+    "category": "Arcwarder",
+    "requirements": "Fortitude: 20 | Flamecharm: 20 | Thundercall: 20",
+    "description": "You vow to be a shield for your comrades, to wear your regalia with pride and serve the greater collective. From each according to their ability, to each according to their needs."
+  },
+  {
+    "talent_name": "Arc Module: Dash",
+    "category": "Arcwarder",
+    "requirements": "",
+    "description": "When Arc Suit is active, your dashes become Jet dashes allowing you to attack while dashing."
+  },
+  {
+    "talent_name": "Arc Module: Eject",
+    "category": "Arcwarder",
+    "requirements": "",
+    "description": "When block broken with Arc Suit active, eject from the armor."
+  },
+  {
+    "talent_name": "Arc Module: Guard",
+    "category": "Arcwarder",
+    "requirements": "",
+    "description": "Blocking with your Arc Suit active negates all backstabs and allows you to block attacks from behind."
+  },
+  {
+    "talent_name": "Arc Module: Leap",
+    "category": "Arcwarder",
+    "requirements": "",
+    "description": "Holding Spacebar after double jumping propels you up for a short duration."
+  },
+  {
+    "talent_name": "Arc Module: Null",
+    "category": "Arcwarder",
+    "requirements": "",
+    "description": "When your Arc suit is active, outgoing and incoming enchant effects are nullified."
+  },
+  {
+    "talent_name": "Oath: Bladeharper",
+    "category": "Bladeharper",
+    "requirements": "",
+    "description": "You vow to carry your blades as an instrument, to lend yourself to any cause it guides you to. Collapse the infinite number of possibilities ahead of you into just one. The blade keeps you as much as you keep it."
+  },
+  {
+    "talent_name": "Float Like a Butterfly",
+    "category": "Bladeharper",
+    "requirements": "",
+    "description": "In a display of true strength, cancel your air dash to enter a frenzy of slashes. (5s CD)"
+  },
+  {
+    "talent_name": "Lithe Step",
+    "category": "Bladeharper",
+    "requirements": "",
+    "description": "When sprinting, roll-cancel and instantly vanish and surge with unmatched speed."
+  },
+  {
+    "talent_name": "Reveal",
+    "category": "Bladeharper",
+    "requirements": "",
+    "description": "Pour your heart out and reveal your true strength"
+  },
+  {
+    "talent_name": "Untouchable",
+    "category": "Bladeharper",
+    "requirements": "",
+    "description": "By landing consecutive hits on your opponent without taking any damage, reveal your true strength for a short duration."
+  },
+  {
+    "talent_name": "Soaring Storm",
+    "category": "Bladeharper",
+    "requirements": "",
+    "description": "Empower your uppercuts with the way of the blade, after Lithe Stepping, flourishing, or landing an oath ability."
+  },
+  {
+    "talent_name": "Oath: Blightsurger",
+    "category": "Blightsurger",
+    "requirements": "Body: 40 | Thundercall: 40 | Galebreathe: 40",
+    "description": "Fists and storm. Wield sacred lightning, tear through foes and leave them withered."
+  },
+  {
+    "talent_name": "Sovereign State",
+    "category": "Blightsurger",
+    "requirements": "",
+    "description": "Landing physical hits builds your Blight Meter. At full gauge, enter a Blight State that changes your critical and empowers Blightsurge abilities."
+  },
+  {
+    "talent_name": "Blightpierce",
+    "category": "Blightsurger",
+    "requirements": "",
+    "description": "Your Blightshock attacks pierce through your enemies hyperarmor and gain more penetration."
+  },
+  {
+    "talent_name": "Blighted Touch",
+    "category": "Blightsurger",
+    "requirements": "",
+    "description": "Landing Basic Attacks during Sovereign State now applies Blightshock."
+  },
+  {
+    "talent_name": "Anchor Shock",
+    "category": "Blightsurger",
+    "requirements": "",
+    "description": "Your Blightshock prevents targets from using mobility mantras."
+  },
+  {
+    "talent_name": "Oath: Blindseer",
+    "category": "Blindseer",
+    "requirements": "Willpower: 40",
+    "description": "You vow to not let the horrors of the world pierce your tightly fastened blindfold. Everything is simply as we choose to perceive it."
+  },
+  {
+    "talent_name": "All-Seeing Eye",
+    "category": "Blindseer",
+    "requirements": "",
+    "description": "The mystic eye through which you now see the world can perceive the imperceptible. Invisible foes are highlighted."
+  },
+  {
+    "talent_name": "Oath: Chainwarden",
+    "category": "Chainwarden",
+    "requirements": "",
+    "description": "You vow to be the chain that binds the wicked and drags them back where they belong. There are those in this world who should not be free."
+  },
+  {
+    "talent_name": "Chainlash",
+    "category": "Chainwarden",
+    "requirements": "",
+    "description": "On flourish, whip your chain to seize and yank enemies towards you, setting them up for a crushing kick."
+  },
+  {
+    "talent_name": "Perpetual Wrath",
+    "category": "Chainwarden",
+    "requirements": "",
+    "description": "Unleash the true power of Restrain. Each successive hit will increase its damage."
+  },
+  {
+    "talent_name": "Oath: Contractor",
+    "category": "Contractor",
+    "requirements": "",
+    "description": "Your heart is forever now eternally tied to Zi'eer, the 4th Prophet of the Ministry. You swear to serve under his will, no matter the cost."
+  },
+  {
+    "talent_name": "Hidden Tendril",
+    "category": "Contractor",
+    "requirements": "",
+    "description": "Landing any physical mantra or critical places a hidden tendril on the opponent."
+  },
+  {
+    "talent_name": "String Trick",
+    "category": "Contractor",
+    "requirements": "",
+    "description": "Pulls together any two opponents you've attached Hidden Tendrils to."
+  },
+  {
+    "talent_name": "Oath: Dawnwalker",
+    "category": "Dawnwalker",
+    "requirements": "Power: 15",
+    "description": "You vow to forever reach towards the brilliant Light. There is no shadow that your radiance cannot expunge."
+  },
+  {
+    "talent_name": "Absolute Radiance",
+    "category": "Dawnwalker",
+    "requirements": "",
+    "description": "Dealing damage with Dawnwalker mantras briefly makes you immune to all elemental status effects for a short duration."
+  },
+  {
+    "talent_name": "Luminous Flash",
+    "category": "Dawnwalker",
+    "requirements": "",
+    "description": "After dealing a certain amount of damage while in 'Absolute Radiance', gain a chance to empower your strikes with pure light."
+  },
+  {
+    "talent_name": "Protagonist Syndrome",
+    "category": "Dawnwalker",
+    "requirements": "",
+    "description": "The grasp of shadow is meaningless in the face of your blinding light. Your Dawnwalker mantras are empowered after being hit by Shadowcast."
+  },
+  {
+    "talent_name": "Oath: Fadetrimmer",
+    "category": "Fadetrimmer",
+    "requirements": "Power: 12",
+    "description": "You vow to forever hone your precision with the scissors. There will never be another fringe incident again."
+  },
+  {
+    "talent_name": "Barber's Skillset",
+    "category": "Fadetrimmer",
+    "requirements": "",
+    "description": "What type of look are we going for today?"
+  },
+  {
+    "talent_name": "Hair Products",
+    "category": "Fadetrimmer",
+    "requirements": "",
+    "description": "Select Hair Products to apply to others with your Hair Spray."
+  },
+  {
+    "talent_name": "Hair Spray",
+    "category": "Fadetrimmer",
+    "requirements": "",
+    "description": "Apply your Hair Products."
+  },
+  {
+    "talent_name": "Oath: Jetstriker",
+    "category": "Jetstriker",
+    "requirements": "Agility: 50",
+    "description": "You vow to flow with the Song itself, drifting across where the trails may take you. If the song permeates everything, then let it be your conduit, and you its master."
+  },
+  {
+    "talent_name": "Acceleration Points",
+    "category": "Jetstriker",
+    "requirements": "",
+    "description": "Striking an opponent in the back with mobility mantras or basic attacks now steals and grants additional momentum."
+  },
+  {
+    "talent_name": "Decisive Winds",
+    "category": "Jetstriker",
+    "requirements": "",
+    "description": "When damaged below 50% health, gain maximum sprint momentum temporarily, then this ability is put on cooldown."
+  },
+  {
+    "talent_name": "Jetstream Pursuit",
+    "category": "Jetstriker",
+    "requirements": "",
+    "description": "Upon a succesful flourish. teleport to the opponent when they stop moving. Receive a significant boost of momentum."
+  },
+  {
+    "talent_name": "Rush of Ancients",
+    "category": "Jetstriker",
+    "requirements": "",
+    "description": "Dashing at maximum sprint momentum makes you one with the wind itself."
+  },
+  {
+    "talent_name": "Stratos Step",
+    "category": "Jetstriker",
+    "requirements": "",
+    "description": "Holding space while climbing will now let you perform Stratos Steps to get even higher. Others can follow your Stratos Steps."
+  },
+  {
+    "talent_name": "Oath: Linkstrider",
+    "category": "Linkstrider",
+    "requirements": "",
+    "description": "The Entropy Catalyst generated enough force to fundamentally change your state of existence. You now exist between two states, your newfound clarity making the imperceptible Bonds between all souls malleable to you."
+  },
+  {
+    "talent_name": "Entropy Link",
+    "category": "Linkstrider",
+    "requirements": "",
+    "description": "The world is broken, linked by fragile webs. Traverse the path by stating your destination amidst the flame."
+  },
+  {
+    "talent_name": "Symbiotic Link",
+    "category": "Linkstrider",
+    "requirements": "",
+    "description": "Press X while hovering over an ally to buff them, or while hovering over an opponent to debuff them. The links you create are destroyed when you receive damage from an enemy."
+  },
+  {
+    "talent_name": "Oath: Oathless",
+    "category": "Oathless",
+    "requirements": "",
+    "description": "You vow to never be bound to any oath; to live your life free of restraint. If free will is an illusion, why not make it a convincing one?"
+  },
+  {
+    "talent_name": "Oath: Saintsworn",
+    "category": "Saintsworn",
+    "requirements": "Flamecharm: 15 | Frostdraw: 15 | Thundercall: 15 | Galebreathe: 15 | Shadowcast: 15",
+    "description": "A vow to the fallen heroes. Press L to swap to Saintsblade."
+  },
+  {
+    "talent_name": "Ether Proselyte",
+    "category": "Saintsworn",
+    "requirements": "",
+    "description": "All of your Elemental Mantras below Lv. 5 are 1 Mantra Level higher. Your Mantras are converted to the element of your active stance."
+  },
+  {
+    "talent_name": "Hero's Assist",
+    "category": "Saintsworn",
+    "requirements": "",
+    "description": "Heroes come to your aid based on your Saint Stance."
+  },
+  {
+    "talent_name": "Saint's Negation",
+    "category": "Saintsworn",
+    "requirements": "",
+    "description": "Once per stance cycle you can fully block an attack that matches your Saint Stance."
+  },
+  {
+    "talent_name": "Saint's Overload",
+    "category": "Saintsworn",
+    "requirements": "",
+    "description": "After a full rotation of stances your elemental scaling is increased by 15% and Mantra Modifiers [are] increased by 10%."
+  },
+  {
+    "talent_name": "Saint's Synergy",
+    "category": "Saintsworn",
+    "requirements": "",
+    "description": "25% of your highest element scaling is applied to other elemental damage."
+  },
+  {
+    "talent_name": "Oath: Saltchemist",
+    "category": "Saltchemist",
+    "requirements": "Intelligence: 75",
+    "description": "You vow to dedicate body and mind to the furthering of the Material Arts. Your body is a conduit through which true knowledge shall be siphoned. Knowledge is power, and you shall be its vessel."
+  },
+  {
+    "talent_name": "Antithetic Salts",
+    "category": "Saltchemist",
+    "requirements": "",
+    "description": "Alter your brews to invert their effects. Does not count towards the ingredient limit."
+  },
+  {
+    "talent_name": "Aromatic Salts",
+    "category": "Saltchemist",
+    "requirements": "",
+    "description": "Alter your brews to create lingering clouds of mist on shattering . Does not count towards the ingredient limit."
+  },
+  {
+    "talent_name": "Biotic Salts",
+    "category": "Saltchemist",
+    "requirements": "",
+    "description": "Alter your brews to have reduced positive effects on your enemies and somewhat reduced negative effects on your allies when thrown. Does not count towards the ingredient limit."
+  },
+  {
+    "talent_name": "Perpetual Distillery",
+    "category": "Saltchemist",
+    "requirements": "",
+    "description": "Your very body has become a distillery for your alchemy. Gain 3 Autobrew slots that will automatically produce 3 concoctions of your choice."
+  },
+  {
+    "talent_name": "Oath: Silentheart",
+    "category": "Silentheart",
+    "requirements": "Strength: 25 | Agility: 25 | Charisma: 25",
+    "description": "You vow to reject the Words of the Song, denying yourself of mantras in pursuit of your own path to true strength, no matter the cost. You can wield weapons with half the usual requirements.\n[Note: Only reduces requirements by 25, not half.]"
+  },
+  {
+    "talent_name": "Ankle Cutter",
+    "category": "Silentheart",
+    "requirements": "",
+    "description": "You can now do a special ground slash while sliding, applying a temporary speed debuff to those hit, as well as preventing jumping."
+  },
+  {
+    "talent_name": "Dread Fighter",
+    "category": "Silentheart",
+    "requirements": "",
+    "description": "Parrying and getting hit by mantras now give you stacks of Dread. Each stack increases your mantra resistance, up to 25%. Each stack lasts for 15 seconds."
+  },
+  {
+    "talent_name": "Flow State",
+    "category": "Silentheart",
+    "requirements": "",
+    "description": "Enter a moment of extreme focus in which you can change the windup of your special attack with the correct timing."
+  },
+  {
+    "talent_name": "Mayhem",
+    "category": "Silentheart",
+    "requirements": "",
+    "description": "Initiate a special dash attack by pressing Basic Attack during the start of your dodge."
+  },
+  {
+    "talent_name": "Merciless Blade",
+    "category": "Silentheart",
+    "requirements": "",
+    "description": "You now execute enemies much faster."
+  },
+  {
+    "talent_name": "Relentless Hunt",
+    "category": "Silentheart",
+    "requirements": "",
+    "description": "Basic Attack while doing an Aerial Attack to initiate a special gap closer attack."
+  },
+  {
+    "talent_name": "Rising Star",
+    "category": "Silentheart",
+    "requirements": "",
+    "description": "Press CTRL + M2 to activate a special uppercut attack."
+  },
+  {
+    "talent_name": "Silent Cascade",
+    "category": "Silentheart",
+    "requirements": "",
+    "description": "Landing physical attacks on an opponent charges up your Silent Cascade, a devastating barrage that can be unleashed with CTRL + M2."
+  },
+  {
+    "talent_name": "True Vantage",
+    "category": "Silentheart",
+    "requirements": "",
+    "description": "Venting makes you invisible briefly while boosting your speed."
+  },
+  {
+    "talent_name": "Unmatched Dexterity",
+    "category": "Silentheart",
+    "requirements": "",
+    "description": "Press X to Quick Swap between weapons within your toolbar."
+  },
+  {
+    "talent_name": "Vengeful Pursuit",
+    "category": "Silentheart",
+    "requirements": "",
+    "description": "Your running Basic Attacks that don't hit send out a special mid-range crescent projectile that slows on hit. Tracks onto those with their backs turned to you. 8s CD."
+  },
+  {
+    "talent_name": "Oath: Soulbreaker",
+    "category": "Soulbreaker",
+    "requirements": "",
+    "description": "The sum of your fragments is greater than the whole. Though your very being is splintered and threatening to drift apart, every shard of you Vows to remain One. Your Oath is solvent that joins all of your distinct selves into the gestalt you."
+  },
+  {
+    "talent_name": "Formless",
+    "category": "Soulbreaker",
+    "requirements": "",
+    "description": "Teleport to a location within your Tacet bubble. Receive a slight speed boost when activating Tacet."
+  },
+  {
+    "talent_name": "Heart Reverb",
+    "category": "Soulbreaker",
+    "requirements": "",
+    "description": "Those picked up by your Rhythm are marked for 8 seconds. Whenever an opponent dodges your attack, detect their rhythm and vigor. You can use Rhythm while standing."
+  },
+  {
+    "talent_name": "Soul Infusion",
+    "category": "Soulbreaker",
+    "requirements": "",
+    "description": "Infuse Ardour into your executions. If your execute is interrupted, the opponent remains down for a longer amount of time. Your Ardour Screams are projected further."
+  },
+  {
+    "talent_name": "Murmur: Ardour [OATH]",
+    "category": "Soulbreaker",
+    "requirements": "",
+    "description": "An application of the Song that enables one to channel the Murmur into raw strength. Press H."
+  },
+  {
+    "talent_name": "Murmur: Rhythm [OATH]",
+    "category": "Soulbreaker",
+    "requirements": "",
+    "description": "An application of the Song that enables the user to perceive the subtle Murmur emanating from all things. Press G while crouched."
+  },
+  {
+    "talent_name": "Murmur: Tacet [OATH]",
+    "category": "Soulbreaker",
+    "requirements": "",
+    "description": "An application of the Song that enables the user to suppress their own murmur. Press T while crouched."
+  },
+  {
+    "talent_name": "Ardour Scream [OATH]",
+    "category": "Soulbreaker",
+    "requirements": "",
+    "description": "Amplify your shout into a scream using Ardour, dominating weaker foes. Victims take 25% more damage and 50% more posture damage for 10s."
+  },
+  {
+    "talent_name": "Spotter [OATH]",
+    "category": "Soulbreaker",
+    "requirements": "",
+    "description": "Marking enemies while in Rhythm will indicate their health status to your allies."
+  },
+  {
+    "talent_name": "Oath: Starkindred",
+    "category": "Starkindred",
+    "requirements": "Strength: 40",
+    "description": "You vow to feel the knowledge of all that is, all at once. Your heart beats with the world itself, as the Stars above watch over you."
+  },
+  {
+    "talent_name": "Death From Above",
+    "category": "Starkindred",
+    "requirements": "",
+    "description": "Upon cancelling your Air Dash, reveal your wings and strike your enemy."
+  },
+  {
+    "talent_name": "Oath: Visionshaper",
+    "category": "Visionshaper",
+    "requirements": "Charisma: 50",
+    "description": "You vow to only see that which you wish to see. Reality itself is malleable, pliable to your deft hands."
+  },
+  {
+    "talent_name": "Cheap Trick",
+    "category": "Visionshaper",
+    "requirements": "",
+    "description": "When hit below half health briefly disappear leaving behind an illusion clone to keep your opponent occupied. Briefly disappear after knocking an enemy."
+  },
+  {
+    "talent_name": "Reality Shift",
+    "category": "Visionshaper",
+    "requirements": "",
+    "description": "Command the closest conjured servant to attack their hallucinating target, using either a Critical Attack or a Mantra."
+  },
+  {
+    "talent_name": "Shaper Mimicry",
+    "category": "Visionshaper",
+    "requirements": "",
+    "description": "The servants you have conjured will imitate your actions when you Swing/Block/Parry/Jump."
+  },
+  {
+    "talent_name": "Fisher's Lure",
+    "category": "Angler",
+    "requirements": "",
+    "description": "Fish are drawn to your line more quickly."
+  },
+  {
+    "talent_name": "Hook, Line, and Sinker",
+    "category": "Angler",
+    "requirements": "",
+    "description": "Once something's caught your line, it's much harder to get loose."
+  },
+  {
+    "talent_name": "Proficient Baiting",
+    "category": "Angler",
+    "requirements": "",
+    "description": "Casting your line excites ocean life, reducing the chances of fishing up trash."
+  },
+  {
+    "talent_name": "Spell Shout",
+    "category": "Deepwoken",
+    "requirements": "",
+    "description": "You now will shout the names of your spells upon cast."
+  },
+  {
+    "talent_name": "Ethiron's Gaze",
+    "category": "Drowned Secret",
+    "requirements": "",
+    "description": "Your eyes have been opened to the wasteland. You can now see through the harsh fog of the storm of the Eternal Gale more clearly now."
+  },
+  {
+    "talent_name": "Legion Kata",
+    "category": "Gale Kata",
+    "requirements": "Light Wep.: 25",
+    "description": "Gain the ability to use the Legion's martial arts."
+  },
+  {
+    "talent_name": "Imperium Kata",
+    "category": "Gale Kata",
+    "requirements": "",
+    "description": "Wield an advanced form of the Legion's martial arts."
+  },
+  {
+    "talent_name": "Heretic's Sutra",
+    "category": "Heretic",
+    "requirements": "Willpower: 80",
+    "description": "A chant that steers you into the state of insanity for 20 seconds.\n[*Note: Procs Piercing Will for 15 seconds.]\n[*Note: 0.4s to 0.1s wind-up and 24s to 18s cooldown between 30 and 100 Willpower.]"
+  },
+  {
+    "talent_name": "Union Hook",
+    "category": "Ignition Union",
+    "requirements": "",
+    "description": "You can now make use of the Ignition Union hooks to ascend or descend."
+  },
+  {
+    "talent_name": "Thresher Scales",
+    "category": "Marauder",
+    "requirements": "Power: 13",
+    "description": "You regenerate your armor at campfires."
+  },
+  {
+    "talent_name": "Chain of Perfection",
+    "category": "Metamancer",
+    "requirements": "",
+    "description": "You gain stacks of 'Perfection' on hitting mobs with basic attacks. Perfection increases your damage towards mobs the more stack you have. All stacks are lost upon taking damage."
+  },
+  {
+    "talent_name": "Treefelling Blow",
+    "category": "Miscellaneous",
+    "requirements": "",
+    "description": "You can collect lumber from the trees you fell with your fists. It's only natural."
+  },
+  {
+    "talent_name": "Way of Navae",
+    "category": "Navaen Nomad",
+    "requirements": "",
+    "description": "Gain the ability to use fist combat against weapons. Including the ability to block weapons with your hands using Ether."
+  },
+  {
+    "talent_name": "Excavator",
+    "category": "Prospector",
+    "requirements": "",
+    "description": "Chance to receive two sets of ore when mining. You mine things more quickly."
+  },
+  {
+    "talent_name": "Harvester",
+    "category": "Prospector",
+    "requirements": "",
+    "description": "Chance to receive two sets of ingredients when harvesting. You fell trees in fewer strikes."
+  },
+  {
+    "talent_name": "Family Recipe",
+    "category": "Saboteur",
+    "requirements": "",
+    "description": "You can now craft bombs at a crafting bench."
+  },
+  {
+    "talent_name": "Windwaker",
+    "category": "Scholar of the Cloud",
+    "requirements": "Galebreathe: 50",
+    "description": "Call upon a gust of wind to propel your boat even faster."
+  },
+  {
+    "talent_name": "Chime of Conflict",
+    "category": "Sovereign of Slaughter",
+    "requirements": "Power: 5",
+    "description": "Drift in and out of reality, challenging those hailing from distant lands. Grants you the ability to access the PvP Arena."
+  },
+  {
+    "talent_name": "Critical Attack",
+    "category": "Warrior",
+    "requirements": "",
+    "description": "Landing a hit with your critical restores 30% Posture."
+  },
+  {
+    "talent_name": "Engage",
+    "category": "Warrior",
+    "requirements": "",
+    "description": "Landing an Basic Attack slightly restores some of your Ether."
+  },
+  {
+    "talent_name": "Mercy Kill",
+    "category": "Weapon Master",
+    "requirements": "",
+    "description": "When you flourish an enemy much weaker than you, you kill them instantly. Enemies that are greatly weaker than you die instantly from a single hit."
+  }
+]

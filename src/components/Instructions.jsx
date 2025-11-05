@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Instructions({ onNext }) {
+const Instructions = ({ onNext }) => {
   return (
     <div className="container">
       <h1>🎮 Deepwoken Talent Rating System</h1>
